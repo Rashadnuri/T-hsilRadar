@@ -1,0 +1,1378 @@
+{
+  "common": {
+    "siteName": "TəhsilRadar",
+    "skipToContent": "Skip to main content",
+    "backToHome": "Back to home",
+    "tryAgain": "Try again",
+    "loading": "Loading…",
+    "viewAll": "View all"
+  },
+  "metadata": {
+    "defaultTitle": "TəhsilRadar — education and career opportunities",
+    "titleTemplate": "%s | TəhsilRadar",
+    "defaultDescription": "Discover scholarships, internships, admissions, courses and other education and career opportunities in Azerbaijan and worldwide, each with its official source.",
+    "opportunitiesTitle": "Opportunity catalogue",
+    "opportunitiesDescription": "Search and filter scholarships, internships, admissions, exchanges, courses and other opportunities.",
+    "opportunitiesPageTitle": "{title} — page {page}",
+    "aboutTitle": "About the platform",
+    "aboutDescription": "What TəhsilRadar is, the principles it works by and how it keeps information trustworthy.",
+    "contactTitle": "Contact",
+    "contactDescription": "Get in touch with the TəhsilRadar team about questions, suggestions, partnerships or errors in the data.",
+    "loginTitle": "Log in",
+    "loginDescription": "Log in to your TəhsilRadar account.",
+    "registerTitle": "Sign up",
+    "registerDescription": "Create a free TəhsilRadar account.",
+    "forgotPasswordTitle": "Reset your password",
+    "forgotPasswordDescription": "Enter your email address to reset your password.",
+    "notFoundTitle": "Page not found",
+    "profileTitle": "My profile",
+    "profileDescription": "Your personal profile: education, skills and interests.",
+    "resetPasswordTitle": "New password",
+    "resetPasswordDescription": "Set a new password for your account.",
+    "myPlanTitle": "My plan",
+    "myPlanDescription": "Your saved opportunities, applications and personal notes.",
+    "matchesTitle": "Opportunities that match me",
+    "matchesDescription": "Opportunities ranked for your profile, with an explanation of each match.",
+    "adminTitle": "Admin dashboard",
+    "adminDescription": "Manage opportunities, organizations and translations."
+  },
+  "nav": {
+    "label": "Main navigation",
+    "opportunities": "Opportunities",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log in",
+    "register": "Sign up",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "profile": "Profile",
+    "logout": "Log out",
+    "myPlan": "My plan",
+    "matches": "Matches",
+    "admin": "Admin"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "footerLabel": "Language (page footer)",
+    "switchTo": "Switch language: {language}"
+  },
+  "header": {
+    "home": "TəhsilRadar home page"
+  },
+  "footer": {
+    "tagline": "Discover education and career opportunities in Azerbaijan and worldwide, with their official sources.",
+    "platform": "Platform",
+    "account": "Account",
+    "language": "Language",
+    "rights": "© {year} TəhsilRadar. All rights reserved.",
+    "disclaimer": "The platform is under development.",
+    "demoNote": "Sample cards are demo content, not real opportunities."
+  },
+  "demo": {
+    "badge": "Demo",
+    "title": "Demo content.",
+    "text": "These cards are for visual testing only: the organizations and programs are fictional and are not real opportunities."
+  },
+  "search": {
+    "label": "Search opportunities",
+    "placeholder": "Scholarship, internship, course, university…",
+    "button": "Search"
+  },
+  "orgKinds": {
+    "government": "Government body",
+    "university": "University",
+    "bank": "Bank or financial institution",
+    "company": "Private company",
+    "it_company": "IT company",
+    "ngo": "Non-profit organization",
+    "international_org": "International organization",
+    "scholarship_org": "Scholarship organization",
+    "development_org": "Development organization"
+  },
+  "scope": {
+    "azerbaijan": "Azerbaijan",
+    "international": "International",
+    "both": "Azerbaijan and international"
+  },
+  "funding": {
+    "fully_funded": "Fully funded",
+    "partially_funded": "Partially funded",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "tuition_discount": "Tuition discount",
+    "not_specified": "Not specified",
+    "period": {
+      "monthly": "per month",
+      "yearly": "per year"
+    }
+  },
+  "level": {
+    "high_school": "High school",
+    "bachelor": "Bachelor's",
+    "master": "Master's",
+    "phd": "PhD",
+    "graduate": "Graduate",
+    "professional": "Professional"
+  },
+  "deadlineFilter": {
+    "open": "Open for applications",
+    "week": "Closing within 7 days",
+    "month": "Closing within 30 days",
+    "rolling": "Rolling admission",
+    "expired": "Expired (ended)"
+  },
+  "lifecycle": {
+    "open": "Open",
+    "closingSoon": "Closing soon",
+    "rolling": "Rolling admission",
+    "expired": "Expired",
+    "upcoming": "Opening soon",
+    "unknown": "Deadline not specified"
+  },
+  "sort": {
+    "label": "Sort by",
+    "relevance": "Relevance",
+    "deadline": "Nearest deadline",
+    "newest": "Newest first",
+    "updated": "Recently updated"
+  },
+  "filters": {
+    "title": "Filters",
+    "scope": "Geography",
+    "level": "Education level",
+    "funding": "Funding",
+    "deadline": "Deadline",
+    "any": "All",
+    "apply": "Apply filters",
+    "reset": "Reset",
+    "type": "Type",
+    "locationType": "Format",
+    "country": "Country",
+    "city": "City",
+    "field": "Academic field",
+    "verification": "Verification status"
+  },
+  "card": {
+    "location": "Location",
+    "format": "Format",
+    "funding": "Funding",
+    "deadline": "Deadline",
+    "daysLeft": "{days, plural, =0 {Closes today} one {# day left} other {# days left}}",
+    "availableIn": "Available in: {languages}",
+    "shownIn": "No translation yet — showing the original in {language}",
+    "ended": "Ended"
+  },
+  "catalogue": {
+    "title": "Opportunity catalogue",
+    "subtitle": "Search and filter scholarships, internships, admissions, exchanges, courses and other opportunities.",
+    "results": "{count, plural, =0 {No results found} one {# result found} other {# results found}}",
+    "activeFilters": "Active filters",
+    "removeFilter": "Remove filter: {label}",
+    "empty": {
+      "title": "The catalogue is empty for now",
+      "text": "There are no published opportunities yet. Only opportunities verified against an official source will be added to the catalogue.",
+      "filteredTitle": "Nothing found",
+      "filteredText": "No opportunities match your search. Try changing or resetting the filters.",
+      "reset": "Reset filters",
+      "about": "About the platform",
+      "suggestion": "Shorten the search, try another word or remove one of the active filters."
+    },
+    "updating": "Updating results…",
+    "scopeTabs": {
+      "label": "Geography",
+      "all": "All",
+      "azerbaijan": "Azerbaijan",
+      "international": "International"
+    },
+    "azerbaijan": {
+      "title": "Opportunities in Azerbaijan",
+      "subtitle": "Quickly find local opportunities by city or type.",
+      "cities": "Cities",
+      "shortcuts": "Quick links",
+      "scholarship": "Scholarships in Azerbaijan",
+      "internship": "Internships in Azerbaijan",
+      "grant": "Grants in Azerbaijan"
+    }
+  },
+  "pagination": {
+    "label": "Pagination",
+    "previous": "Previous page",
+    "next": "Next page",
+    "page": "Page {page}"
+  },
+  "detail": {
+    "back": "Back to opportunities",
+    "factsTitle": "Key facts",
+    "organization": "Organization",
+    "market": "Geography",
+    "location": "Location",
+    "format": "Format",
+    "funding": "Funding",
+    "levels": "Education level",
+    "deadline": "Deadline",
+    "languages": "Available languages",
+    "sourceTitle": "Official source",
+    "sourceDemo": "This is a demo record and has no official source. For real opportunities, a link to the organization's official page will appear here.",
+    "sourceReal": "Check the details on the organization's official page before you apply.",
+    "expiredBanner": "The application period for this opportunity has ended.",
+    "notSpecified": "Not specified",
+    "participationFee": "Participation fee",
+    "fields": "Fields of study",
+    "eligibleCountries": "Eligible countries",
+    "startDate": "Applications open",
+    "sections": {
+      "description": "About",
+      "eligibility": "Eligibility",
+      "requirements": "Requirements",
+      "benefits": "Benefits"
+    },
+    "verification": "Verification status",
+    "sourceUrl": "Official source link",
+    "apply": {
+      "button": "Apply on the official website",
+      "closed": "Applications are closed",
+      "upcoming": "Applications open on {date}",
+      "checkDeadline": "No deadline is stated: check the official site before applying.",
+      "demoNote": "Demo link (example.com): not a real application page.",
+      "newTab": "opens in a new tab"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Platform in development",
+      "title": "Discover education and career opportunities from trusted sources",
+      "subtitle": "Scholarships, internships, admissions and courses in Azerbaijan and worldwide for students, graduates and young professionals — each with its official source.",
+      "popular": "Popular:",
+      "secondaryCta": "About the platform",
+      "points": {
+        "source": "Every listing has a source",
+        "markets": "Azerbaijan and international",
+        "languages": "In AZ, RU and EN"
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Opportunities in {count, number} categories. Pick one to open the catalogue."
+    },
+    "featured": {
+      "title": "Featured opportunities",
+      "subtitle": "A selection of standout opportunities."
+    },
+    "azerbaijan": {
+      "title": "Opportunities in Azerbaijan",
+      "subtitle": "Programs from government bodies, universities, banks, technology companies and NGOs."
+    },
+    "international": {
+      "title": "International opportunities",
+      "subtitle": "Study-abroad, exchange, research and career programs."
+    },
+    "how": {
+      "title": "How it works",
+      "subtitle": "Three steps: find, track and understand your fit.",
+      "steps": {
+        "search": {
+          "title": "Search and filter",
+          "text": "Find the right opportunity by category, country, deadline, funding and education level."
+        },
+        "track": {
+          "title": "Save and track",
+          "text": "Save opportunities and keep your application status and deadlines in one place."
+        },
+        "match": {
+          "title": "Understand your fit",
+          "text": "See how well your profile fits the criteria and what is missing, with an explanation."
+        }
+      }
+    },
+    "trust": {
+      "title": "Our trust principles",
+      "subtitle": "These rules apply to every published opportunity."
+    },
+    "cta": {
+      "title": "Don't miss an opportunity",
+      "text": "Create a free account, save opportunities and keep track of deadlines in one place.",
+      "primary": "Create an account",
+      "secondary": "Browse the catalogue"
+    }
+  },
+  "principles": {
+    "source": {
+      "title": "Official source",
+      "text": "Every published opportunity shows its organization and a link to the official source."
+    },
+    "verified": {
+      "title": "Verified and current",
+      "text": "Opportunities are checked before publication. Expired listings are never shown as active."
+    },
+    "languages": {
+      "title": "Three languages",
+      "text": "The interface is available in Azerbaijani, Russian and English. Missing translations are never invented; the original is shown instead."
+    },
+    "ai": {
+      "title": "Honest AI",
+      "text": "A match indicator describes how well your profile fits the criteria. It is not a probability of admission or selection."
+    }
+  },
+  "about": {
+    "title": "About the platform",
+    "intro": "TəhsilRadar is a multilingual platform that helps students, graduates and young professionals find education and career opportunities in Azerbaijan and worldwide.",
+    "mission": "Our aim is to gather scattered information in one place, point to the official source and help people decide in time. Opportunities from Azerbaijani government bodies, universities, banks, technology companies and non-governmental organizations are treated as equals to international ones.",
+    "audience": {
+      "title": "Who it is for",
+      "subtitle": "TəhsilRadar is built for people at different stages of their education and career.",
+      "students": {
+        "title": "Students and applicants",
+        "text": "Follow scholarships, admissions, exchanges, summer schools and their deadlines."
+      },
+      "professionals": {
+        "title": "Graduates and young professionals",
+        "text": "Choose internships, courses, certifications and research that fit your career goals."
+      },
+      "organizations": {
+        "title": "Organizations",
+        "text": "Universities, banks, companies and NGOs will be able to submit opportunities; every submission will be verified."
+      }
+    },
+    "verify": {
+      "title": "How opportunities are verified",
+      "subtitle": "Every opportunity goes through the same checks before it is published.",
+      "steps": {
+        "source": {
+          "title": "Official source",
+          "text": "We confirm the information is based on the organization's official page."
+        },
+        "organization": {
+          "title": "Organization identity",
+          "text": "We check the organization is genuine and the website belongs to it."
+        },
+        "deadline": {
+          "title": "Deadline and terms",
+          "text": "Deadlines, terms and links are compared with the source; suspicious listings that ask for payment are rejected."
+        },
+        "review": {
+          "title": "Editor approval",
+          "text": "The verification date is recorded, and expired opportunities are never shown as active."
+        }
+      }
+    },
+    "principles": {
+      "title": "Our principles",
+      "subtitle": "Trust and transparency are the core rules of the product."
+    },
+    "status": "The platform is under development. The principles on this page describe the rules that will apply to published content.",
+    "cta": {
+      "title": "Have a question?",
+      "text": "Contact us about suggestions, partnerships or corrections.",
+      "primary": "Browse opportunities",
+      "secondary": "Contact us"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Write to us with questions, suggestions or partnership ideas.",
+    "topicsTitle": "Contact topics",
+    "topics": {
+      "general": {
+        "title": "General questions",
+        "text": "Questions about the platform, accounts and features.",
+        "subject": "TəhsilRadar: question"
+      },
+      "partnership": {
+        "title": "Partnerships",
+        "text": "Listing opportunities from universities, banks, companies and NGOs.",
+        "subject": "TəhsilRadar: partnership"
+      },
+      "report": {
+        "title": "Report a problem",
+        "text": "Tell us about an incorrect, outdated or suspicious listing.",
+        "subject": "TəhsilRadar: data error report"
+      }
+    },
+    "detailsNote": "Contact details will be published when the platform launches.",
+    "mail": {
+      "title": "Write to us by e-mail",
+      "text": "Choose a topic on the left to open your e-mail app with the subject filled in, or write to the address below.",
+      "cta": "Send an e-mail",
+      "reportHint": "Reporting a mistake? Please include the link of the opportunity and, if you can, the official page that shows the correct information.",
+      "topicCta": "Write about this"
+    },
+    "mailNote": "We read every message. Please do not send passwords or private documents.",
+    "form": {
+      "title": "Send us a message",
+      "notice": "The form is not active yet: this page only shows the design and nothing you type is sent.",
+      "name": "Name",
+      "email": "Email",
+      "topic": "Topic",
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "auth": {
+    "email": "Email",
+    "emailPlaceholder": "name@example.com",
+    "password": "Password",
+    "name": "Full name",
+    "forgot": "Forgot your password?",
+    "shell": {
+      "title": "Manage your education path in one place",
+      "text": "An account will help you save opportunities, track applications and get personal recommendations.",
+      "benefits": {
+        "save": {
+          "title": "Save opportunities",
+          "text": "Keep the programs you care about at hand on every device."
+        },
+        "match": {
+          "title": "Understand your fit",
+          "text": "See how well your profile fits the criteria, with an explanation."
+        },
+        "privacy": {
+          "title": "Your data stays yours",
+          "text": "Your private notes are visible only to you and can be deleted at any time."
+        }
+      }
+    },
+    "login": {
+      "title": "Log in",
+      "subtitle": "Log in to return to your saved opportunities.",
+      "submit": "Log in",
+      "switchText": "Don't have an account?",
+      "switchLink": "Sign up"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Sign up for free and start tracking opportunities.",
+      "submit": "Create account",
+      "passwordHint": "At least 10 characters.",
+      "consent": "The terms of use and privacy policy will be published before registration goes live.",
+      "switchText": "Already have an account?",
+      "switchLink": "Log in",
+      "confirmPassword": "Confirm password",
+      "checkEmail": {
+        "title": "Check your email",
+        "text": "If you can register with {email}, we have sent a confirmation link. Check your spam folder too."
+      }
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email address and we will send you reset instructions.",
+      "submit": "Send reset link",
+      "switchText": "Remembered your password?",
+      "switchLink": "Log in",
+      "sent": {
+        "title": "If an account exists, we have emailed you",
+        "text": "If an account exists for {email}, we have sent a link to reset your password. The link expires after a while."
+      }
+    },
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "pending": "Please wait…",
+    "resetPassword": {
+      "title": "Set a new password",
+      "subtitle": "Choose a new password for your account.",
+      "submit": "Update password",
+      "newPassword": "New password"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "code": "404"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "text": "The page could not be loaded. Please try again in a moment.",
+    "reference": "Error reference: {digest}"
+  },
+  "opportunityTypes": {
+    "scholarship": "Scholarships",
+    "grant": "Grants",
+    "internship": "Internships and trainee programs",
+    "admission": "University admissions",
+    "exchange": "Exchange programs",
+    "training": "Training courses",
+    "certification": "Professional certifications",
+    "summer_school": "Summer schools",
+    "hackathon": "Hackathons",
+    "competition": "Competitions",
+    "research": "Research programs",
+    "other": "Other opportunities"
+  },
+  "locationType": {
+    "remote": "Remote",
+    "onsite": "On-site",
+    "hybrid": "Hybrid"
+  },
+  "fields": {
+    "education": "Education",
+    "arts_humanities": "Arts and humanities",
+    "social_sciences": "Social sciences and journalism",
+    "business_law": "Business, administration and law",
+    "natural_sciences": "Natural sciences, mathematics and statistics",
+    "ict": "Information and communication technologies",
+    "engineering": "Engineering, manufacturing and construction",
+    "agriculture": "Agriculture, forestry and veterinary",
+    "health": "Health and welfare",
+    "services": "Services",
+    "general": "General programs"
+  },
+  "verification": {
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "rejected": "Rejected",
+    "expired": "Expired",
+    "verifiedOn": "Verified on {date}",
+    "demo": "Demo record: not verified"
+  },
+  "translation": {
+    "machine": "Machine-translated: verify the details at the official source.",
+    "outdated": "This translation has not been updated since the original changed and may be out of date.",
+    "someShownIn": "Some content is not translated yet and is shown in its original language: {languages}.",
+    "sectionShownIn": "This section is shown in its original language: {language}. No translation is available yet."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "invalid_email": "Enter a valid email address.",
+    "password_too_short": "Password must be at least {min} characters.",
+    "password_too_long": "Password must be at most {max} bytes.",
+    "password_same_as_email": "Password must not be the same as your email.",
+    "passwords_do_not_match": "The passwords do not match.",
+    "name_too_short": "Name must be at least {min} characters.",
+    "text_too_long": "At most {max} characters.",
+    "html_not_allowed": "HTML tags are not allowed.",
+    "invalid_choice": "Choose a valid option from the list.",
+    "invalid_year": "Enter a year between {min} and {max}.",
+    "too_many_items": "You can add at most {max} items.",
+    "item_too_long": "Each item can be at most {max} characters.",
+    "invalid_country": "Choose a country from the list.",
+    "invalid_language": "Choose a valid language and level.",
+    "duplicate_items": "There are duplicate values.",
+    "form_invalid": "Please fix the errors in the form.",
+    "invalid_url": "Enter a valid https:// address.",
+    "invalid_slug": "Use only lowercase Latin letters, digits and hyphens (for example my-program).",
+    "invalid_amount": "Enter a positive number.",
+    "invalid_currency": "A three-letter currency code (for example EUR).",
+    "invalid_date": "Enter a valid date and time.",
+    "invalid_timezone": "Unknown time zone (for example Asia/Baku).",
+    "deadline_required": "A fixed deadline needs a date.",
+    "deadline_not_allowed": "This deadline type has no date.",
+    "other_label_required": "Name the type when you choose “Other”.",
+    "other_label_not_allowed": "The label is only for the type “Other”.",
+    "city_conflict": "The city does not match the country, or both the list and the text are filled.",
+    "dates_out_of_order": "The start date cannot be after the deadline.",
+    "funding_pair": "Amount and currency go together.",
+    "funding_not_allowed": "This funding type has no amount.",
+    "percent_not_allowed": "A percentage is only for a tuition discount."
+  },
+  "authErrors": {
+    "invalid_credentials": "Incorrect email or password.",
+    "email_not_confirmed": "Your email address is not confirmed yet. Open the confirmation link we emailed you.",
+    "weak_password": "This password is too weak. Choose a longer, less common one.",
+    "same_password": "The new password must differ from the old one.",
+    "rate_limited": "Too many attempts. Please try again in a little while.",
+    "registration_failed": "We couldn't complete your registration. If you already have an account, log in or reset your password.",
+    "invalid_link": "This link is invalid or has expired. Please request a new one.",
+    "session_missing": "Your session has expired. Please log in again.",
+    "not_configured": "Authentication is not configured in this environment.",
+    "unavailable": "The service is temporarily unavailable. Please try again later.",
+    "save_failed": "We couldn't save your profile. Please try again.",
+    "unauthorized": "You need to log in to do this.",
+    "form_invalid": "Please fix the errors in the form."
+  },
+  "profile": {
+    "title": "My profile",
+    "subtitle": "Fill this in to get better recommendations. Everything except your name is optional.",
+    "privacy": "Your profile is private: only you can see it, and it is never shared.",
+    "saved": "Your profile has been saved.",
+    "passwordUpdated": "Your password has been updated.",
+    "choose": "Select",
+    "save": "Save profile",
+    "saving": "Saving…",
+    "account": {
+      "title": "Account",
+      "email": "Email",
+      "logout": "Log out"
+    },
+    "sections": {
+      "about": "About you",
+      "education": "Education",
+      "preferences": "Interests and preferences",
+      "skills": "Skills and languages"
+    },
+    "fields": {
+      "fullName": "Full name",
+      "educationLevel": "Education level",
+      "university": "University",
+      "academicField": "Academic field",
+      "graduationYear": "Graduation year",
+      "countryOfResidence": "Country of residence",
+      "preferredCountries": "Preferred countries",
+      "skills": "Skills",
+      "languages": "Languages",
+      "careerInterests": "Career interests",
+      "preferredTypes": "Preferred opportunity types"
+    },
+    "hints": {
+      "skills": "Type a skill and press Enter. Up to {max}.",
+      "careerInterests": "Type an interest and press Enter. Up to {max}.",
+      "preferredCountries": "Pick a country and press Add. Up to {max} countries."
+    },
+    "tags": {
+      "add": "Add",
+      "remove": "Remove: {item}",
+      "none": "Nothing added yet."
+    },
+    "languagesField": {
+      "language": "Language",
+      "level": "Level",
+      "add": "Add a language",
+      "remove": "Remove row",
+      "none": "No languages added yet."
+    },
+    "languageLevels": {
+      "A1": "A1 — beginner",
+      "A2": "A2 — elementary",
+      "B1": "B1 — intermediate",
+      "B2": "B2 — upper intermediate",
+      "C1": "C1 — advanced",
+      "C2": "C2 — proficient",
+      "native": "Native"
+    }
+  },
+  "plan": {
+    "title": "My plan",
+    "subtitle": "Your saved opportunities, application progress and deadlines in one place.",
+    "privacy": "Your plan and notes are private: only you can see them.",
+    "loading": "Loading your plan…",
+    "stats": {
+      "label": "Summary",
+      "applications": "Applications",
+      "saved": "Saved",
+      "closingSoon": "Closing soon",
+      "expired": "Expired"
+    },
+    "sections": {
+      "applications": "My applications",
+      "saved": "Saved opportunities"
+    },
+    "empty": {
+      "applications": {
+        "title": "You are not tracking any applications yet",
+        "text": "Press “Track application” on an opportunity page and its status and your notes will appear here."
+      },
+      "saved": {
+        "title": "No saved opportunities yet",
+        "text": "Use the bookmark button in the catalogue to keep opportunities for later."
+      },
+      "filtered": "No applications with this status.",
+      "browse": "Browse the catalogue"
+    },
+    "filter": {
+      "label": "Filter by status",
+      "all": "All"
+    },
+    "status": {
+      "interested": "Interested",
+      "preparing": "Preparing",
+      "applied": "Applied",
+      "interview": "Interview",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn"
+    },
+    "deadline": {
+      "label": "Deadline",
+      "endedOn": "Ended on {date}",
+      "opensOn": "Applications open on {date}",
+      "expiredNote": "This opportunity has expired. Your notes are kept."
+    },
+    "item": {
+      "view": "View opportunity",
+      "savedOn": "Saved {date}",
+      "unavailable": {
+        "title": "This opportunity is no longer available",
+        "text": "It has been unpublished. You can remove it from your plan."
+      }
+    },
+    "application": {
+      "status": "Status",
+      "notes": "Personal notes",
+      "notesPlaceholder": "For example: reference letter, documents, contact person…",
+      "notesHint": "Only you can see your notes. Up to {max} characters.",
+      "save": "Save changes",
+      "saving": "Saving…",
+      "saved": "Changes saved.",
+      "updated": "Updated {date}",
+      "stop": "Stop tracking",
+      "stopConfirm": "If you stop tracking, this application's status and notes will be deleted. Continue?",
+      "stopping": "Removing…"
+    },
+    "savedItem": {
+      "track": "Track application",
+      "remove": "Remove from saved",
+      "removeLabel": "Remove {title} from saved",
+      "tracked": "Tracking: {status}",
+      "working": "Please wait…"
+    },
+    "save": {
+      "save": "Save",
+      "saved": "Saved",
+      "add": "Save {title}",
+      "remove": "Remove {title} from saved",
+      "loginToSave": "Log in to save",
+      "savedMessage": "Opportunity saved."
+    },
+    "track": {
+      "add": "Track application",
+      "adding": "Adding…",
+      "tracking": "Tracking: {status}",
+      "open": "Open my plan"
+    },
+    "errors": {
+      "unauthorized": "Log in to do this.",
+      "not_found": "This opportunity is no longer available.",
+      "limit": "You have reached the maximum number of items (500).",
+      "failed": "We couldn't complete that. Please try again.",
+      "invalid": "Please fix the errors in the form."
+    }
+  },
+  "matching": {
+    "title": "Opportunities that match me",
+    "subtitle": "We compare your profile with the published criteria. The calculation uses transparent rules and does not need AI.",
+    "disclaimer": "The match score shows how well your profile fits the published criteria. It is not the chance of being admitted or selected.",
+    "score": {
+      "label": "Match score",
+      "outOf": "{score} / 100"
+    },
+    "band": {
+      "strong": "Strong match",
+      "good": "Good match",
+      "partial": "Partial match",
+      "low": "Low match",
+      "insufficient": "Not enough data",
+      "ineligible": "Requirements not met",
+      "closed": "Closed"
+    },
+    "eligibility": {
+      "eligible": "You meet the listed requirements",
+      "not_eligible": "Some mandatory requirements are not met",
+      "unknown": "Not all requirements can be checked yet"
+    },
+    "completeness": "Based on {percent}% of the criteria that could be checked",
+    "sections": {
+      "reasons": "Why it matches",
+      "missing": "What is missing",
+      "unknown": "Could not be checked"
+    },
+    "mandatory": "Mandatory",
+    "manual": "Some conditions (for example grades, language tests or documents) are described only in the text and cannot be checked automatically. Read the full requirements.",
+    "criterionName": {
+      "open": "Application status",
+      "education": "Education level",
+      "field": "Field of study",
+      "country": "Country requirement",
+      "type": "Opportunity type",
+      "location": "Location",
+      "interests": "Skills and interests",
+      "language": "Language"
+    },
+    "criteria": {
+      "open": {
+        "met": "Applications are open.",
+        "met_upcoming": "Applications are not open yet.",
+        "met_rolling": "Rolling admission: there is no fixed deadline.",
+        "met_deadline_unknown": "The deadline is not stated: check the official source.",
+        "unmet": "The application deadline has passed."
+      },
+      "education": {
+        "met": "Your education level ({yours}) is accepted.",
+        "unmet": "Accepted levels: {accepted}. Your level is {yours}.",
+        "unmet_graduate_rule": "This is for graduates. Your expected graduation year is {year}, so you have not graduated yet.",
+        "met_graduate_rule": "This is for graduates and your graduation year ({year}) fits.",
+        "unknown": "Add your education level to check this requirement. Accepted: {accepted}.",
+        "unknown_needs_graduation_year": "Add your graduation year to check this graduates-only requirement."
+      },
+      "field": {
+        "met": "Your field of study ({yours}) is eligible.",
+        "unmet": "Eligible fields: {accepted}. Your field is {yours}.",
+        "unknown": "Add your academic field to check this. Eligible: {accepted}."
+      },
+      "country": {
+        "met": "Open to applicants from your country of residence ({yours}).",
+        "unmet": "Open to applicants from: {accepted}. Your country of residence is {yours}. The rule may be based on citizenship — check the official page.",
+        "unknown": "Add your country of residence to check this. Open to: {accepted}."
+      },
+      "type": {
+        "met": "This is one of your preferred opportunity types ({accepted}).",
+        "unmet": "The type is {accepted}, which is not among your preferred types.",
+        "unknown": "Choose preferred opportunity types in your profile."
+      },
+      "location": {
+        "met": "It takes place in a country you prefer ({accepted}).",
+        "partial_remote": "It can be done remotely, so your preferred countries matter less.",
+        "unmet": "It takes place in {accepted}, which is not among your preferred countries.",
+        "unknown": "Add preferred countries in your profile."
+      },
+      "interests": {
+        "met": "The description mentions your skills or interests: {matched}.",
+        "partial": "Only these skills or interests of yours appear in the description: {matched}.",
+        "unmet": "None of your skills or interests were found in the published text.",
+        "unknown": "Add skills or interests in your profile.",
+        "unknown_no_text": "There is not enough published text to compare with your skills."
+      },
+      "language": {
+        "met": "Published in a language you can read: {matched}.",
+        "partial_low_level": "Published in {matched}, but your level there is basic.",
+        "unmet": "Published in: {accepted}. None of your languages match.",
+        "unknown": "Add the languages you know in your profile."
+      }
+    },
+    "panel": {
+      "title": "How well it fits you",
+      "loading": "Calculating the match…",
+      "login": "Log in to see how this opportunity fits your profile.",
+      "loginLink": "Log in",
+      "noProfile": "Your profile is empty, so many criteria cannot be checked.",
+      "completeProfile": "Complete your profile",
+      "error": "We couldn't calculate the match. Please try again.",
+      "retry": "Try again"
+    },
+    "list": {
+      "empty": "There are no opportunities to show yet.",
+      "emptyProfileTitle": "Fill in your profile",
+      "emptyProfileText": "Without a profile the match cannot be calculated accurately. Add your education level, field, country and interests.",
+      "view": "View opportunity",
+      "rankedBy": "Best matches first; opportunities you do not qualify for or that are closed come last.",
+      "missingCount": "Requirements not met: {count}",
+      "more": "Calculated over the first {count} opportunities of the catalogue."
+    }
+  },
+  "ai": {
+    "title": "AI explanation",
+    "badge": "AI-generated",
+    "notOfficial": "This text was generated by AI from the official record on this page and is not official information. It may contain mistakes: check the official source before you decide.",
+    "privacy": "Only your education, field, skills, languages and preferences are sent — never your name, email or university.",
+    "unavailable": "AI explanations are not available right now. The rule-based match above still works.",
+    "tasks": {
+      "why_suits": "Why might this suit me?",
+      "eligibility_summary": "Summarize eligibility",
+      "application_steps": "Application steps",
+      "profile_improvements": "How can I improve my profile?"
+    },
+    "ask": {
+      "label": "Ask a question about this opportunity",
+      "placeholder": "For example: is there an application fee?",
+      "hint": "The answer uses only this opportunity's official data. Up to {max} characters.",
+      "submit": "Ask"
+    },
+    "working": "Generating the answer…",
+    "answerLabel": "AI answer",
+    "errors": {
+      "ai_unavailable": "AI explanations are unavailable right now. Please try again later.",
+      "rate_limited": "Too many requests. Try again in {seconds, plural, one {# second} other {# seconds}}.",
+      "invalid_question": "Please ask a question about this opportunity (3–500 characters).",
+      "invalid_request": "The request was not valid.",
+      "not_found": "This opportunity is no longer available.",
+      "ai_failed": "We couldn't produce an answer. Please try again.",
+      "unauthorized": "Log in to do this.",
+      "forbidden": "The request was refused."
+    },
+    "warnings": {
+      "unverified_numbers": "Some numbers in the answer could not be confirmed against the official record. Check them on the official source.",
+      "language_mismatch": "The answer may not be in your selected language.",
+      "links_removed": "Links were removed from the answer for safety. Official links are on this page.",
+      "truncated": "The answer was shortened because of its length."
+    }
+  },
+  "admin": {
+    "title": "Admin dashboard",
+    "badge": "Admins only",
+    "nav": {
+      "label": "Admin sections",
+      "dashboard": "Dashboard",
+      "opportunities": "Opportunities",
+      "organizations": "Organizations",
+      "site": "Back to the site",
+      "sources": "Sources",
+      "import": "Import",
+      "quality": "Data quality"
+    },
+    "status": {
+      "draft": "Draft",
+      "in_review": "Pending review",
+      "published": "Published",
+      "rejected": "Rejected",
+      "archived": "Archived",
+      "unpublished": "Unpublished"
+    },
+    "verification": {
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "expired": "Expired",
+      "rejected": "Rejected"
+    },
+    "dashboard": {
+      "subtitle": "The publishing queue, verification state and translations in one place.",
+      "cards": {
+        "total": "Total opportunities",
+        "pending": "Waiting for review",
+        "published": "Published",
+        "draft": "Drafts",
+        "rejected": "Rejected",
+        "archived": "Archived",
+        "unverified": "Unverified",
+        "expired": "Expired",
+        "missingTranslations": "Missing translations",
+        "organizations": "Organizations"
+      },
+      "actions": {
+        "new": "New opportunity",
+        "review": "Review queue",
+        "expired": "Expired opportunities",
+        "organizations": "Organizations"
+      },
+      "pendingTitle": "Waiting for review",
+      "pendingEmpty": "Nothing is waiting for review."
+    },
+    "list": {
+      "title": "Opportunities",
+      "new": "New opportunity",
+      "search": "Search",
+      "searchPlaceholder": "Title or slug",
+      "filters": {
+        "status": "Publication status",
+        "verification": "Verification",
+        "all": "All",
+        "expired": "Expired only",
+        "apply": "Apply",
+        "reset": "Reset",
+        "imported": "Imported only",
+        "batch": "Import batch: {batch}"
+      },
+      "columns": {
+        "title": "Title",
+        "organization": "Organization",
+        "status": "Status",
+        "deadline": "Deadline",
+        "translations": "Translations",
+        "updated": "Updated"
+      },
+      "count": "{count, plural, one {# result} other {# results}}",
+      "empty": "There are no opportunities yet.",
+      "emptyFiltered": "No opportunities match these filters.",
+      "edit": "Edit",
+      "deleted": "The opportunity was deleted.",
+      "page": "Page {page} of {total}",
+      "prev": "Previous",
+      "next": "Next",
+      "noDeadline": "No deadline (rolling)",
+      "deadlineUnknown": "Not stated",
+      "expiredBadge": "Expired",
+      "demoBadge": "Demo",
+      "importedBadge": "Imported: {batch}"
+    },
+    "coverage": {
+      "legend": "Translations: AZ, RU, EN",
+      "ok": "available",
+      "missing": "missing",
+      "draft": "machine draft only",
+      "outdated": "outdated",
+      "original": "original",
+      "summaryMissing": "Missing: {languages}",
+      "complete": "All translations present"
+    },
+    "form": {
+      "createTitle": "New opportunity",
+      "editTitle": "Edit opportunity",
+      "back": "Back to opportunities",
+      "createdNotice": "The opportunity was created as a draft.",
+      "savedNotice": "Changes saved.",
+      "savedUnverifiedNotice": "Saved. Verified facts changed, so the verification was withdrawn — check the official source again.",
+      "save": "Save",
+      "create": "Create draft",
+      "saving": "Saving…",
+      "sections": {
+        "basics": "Basics",
+        "location": "Location",
+        "eligibility": "Eligibility",
+        "funding": "Funding",
+        "dates": "Dates",
+        "links": "Official links",
+        "translations": "Translations"
+      },
+      "fields": {
+        "slug": "Slug (URL part)",
+        "organization": "Organization",
+        "type": "Opportunity type",
+        "otherLabel": "Name of the type “Other”",
+        "originalLanguage": "Language of the original text",
+        "featured": "Featured",
+        "locationType": "Format",
+        "country": "Country",
+        "city": "City (from the list)",
+        "cityText": "City (other)",
+        "educationLevels": "Education levels",
+        "eligibleFields": "Eligible fields",
+        "eligibleCountries": "Eligible countries (codes; empty = not stated)",
+        "fundingType": "Funding type",
+        "fundingAmount": "Amount",
+        "fundingCurrency": "Currency",
+        "fundingPeriod": "Period",
+        "fundingPercent": "Discount percent",
+        "feeAmount": "Participation fee",
+        "feeCurrency": "Fee currency",
+        "startDate": "Applications open",
+        "deadlineType": "Deadline type",
+        "deadline": "Deadline",
+        "deadlineTimezone": "Time zone",
+        "officialSourceUrl": "Official source (https)",
+        "applicationUrl": "Application page (https)"
+      },
+      "hints": {
+        "slug": "Left empty, it is generated from the original title.",
+        "originalLanguage": "The original text is preserved and the language cannot change later.",
+        "deadline": "The time is in the organization's time zone.",
+        "required": "Required for publishing.",
+        "unknownDeadline": "You cannot publish with “Not stated”."
+      },
+      "deadlineType": {
+        "fixed": "Fixed date",
+        "rolling": "No deadline (rolling admission)",
+        "unknown": "Not stated"
+      },
+      "fundingPeriod": {
+        "total": "In total",
+        "monthly": "Per month",
+        "yearly": "Per year"
+      },
+      "choose": "Select",
+      "none": "—"
+    },
+    "tr": {
+      "intro": "Write the text for each language separately. Partial translations are allowed; empty sections are never filled in automatically.",
+      "originalTag": "Original",
+      "originalNote": "The text in the original language cannot be removed.",
+      "status": "Translation status",
+      "statusOptions": {
+        "human": "Written or reviewed by a person",
+        "machine_draft": "Machine draft (never shown publicly)"
+      },
+      "states": {
+        "original": "Original",
+        "human": "Live (human)",
+        "machine_draft": "Machine draft — hidden",
+        "machine_approved": "Approved machine translation",
+        "outdated": "Outdated (the original changed)",
+        "missing": "Missing"
+      },
+      "approve": "Approve for publishing",
+      "approveNote": "Machine drafts are not shown to the public until you approve them.",
+      "markReviewed": "Mark as reviewed by a person",
+      "backToDraft": "Back to draft",
+      "working": "Please wait…",
+      "fields": {
+        "title": "Title",
+        "short": "Short description",
+        "description": "Description",
+        "requirements": "Requirements",
+        "benefits": "Benefits",
+        "eligibility": "Eligibility (text)"
+      }
+    },
+    "workflow": {
+      "title": "Status and verification",
+      "current": "Publication status",
+      "actions": {
+        "in_review": "Submit for review",
+        "published": "Approve and publish",
+        "rejected": "Reject",
+        "archived": "Archive",
+        "draft": "Back to draft",
+        "unpublish": "Unpublish (to draft)"
+      },
+      "done": "Status updated.",
+      "verifyTitle": "Official source verification",
+      "verify": "Verify official source",
+      "unverify": "Withdraw verification",
+      "openSource": "Open the official source",
+      "verifyHint": "Verify only after opening the link and checking that the data matches the official page.",
+      "verifiedOn": "Verified on {date}",
+      "noSource": "No official source is set.",
+      "requirementsTitle": "Publishing requirements",
+      "requirementsMet": "All requirements are met.",
+      "blockers": {
+        "missing_official_source": "The official source URL is missing.",
+        "official_source_not_https": "The official source must use https.",
+        "not_verified": "The official source is not verified.",
+        "missing_organization": "No organization is selected.",
+        "missing_original_translation": "There is no text in the original language.",
+        "missing_title": "The title is missing.",
+        "missing_short_description": "The original has no short description.",
+        "deadline_required": "A fixed deadline has no date.",
+        "deadline_not_stated": "The deadline is not stated: set a date or “no deadline”.",
+        "missing_country": "The country is missing.",
+        "already_expired": "The deadline has already passed."
+      },
+      "deleteTitle": "Delete the opportunity",
+      "delete": "Delete permanently",
+      "deleteConfirm": "This opportunity and all its translations will be deleted permanently, and disappear from users' plans. Continue?",
+      "deleteHint": "Archive a published opportunity first. Archiving is usually better than deleting.",
+      "working": "Please wait…"
+    },
+    "errors": {
+      "unauthorized": "You need to log in.",
+      "forbidden": "You need admin rights to do this.",
+      "not_found": "The record was not found.",
+      "invalid": "Please fix the errors in the form.",
+      "conflict": "This slug is already in use.",
+      "in_use": "This record is in use and cannot be deleted.",
+      "publish_blocked": "The publishing requirements are not met.",
+      "failed": "We couldn't complete that. Please try again.",
+      "invalid_transition": "That status change is not allowed. Submit for review first.",
+      "archive_first": "Archive a published opportunity before deleting it.",
+      "unpublish_first": "Unpublish before withdrawing the verification.",
+      "critical_change_published": "You cannot change verified facts ({fields}) of a published opportunity. Unpublish it first.",
+      "missing_official_source": "Verification needs an official source URL.",
+      "invalid_file": "The file could not be read, or required columns are missing."
+    },
+    "changed": {
+      "officialSourceUrl": "official source",
+      "applicationUrl": "application page",
+      "applicationDeadline": "deadline",
+      "applicationStartDate": "start date",
+      "deadlineType": "deadline type",
+      "fundingType": "funding type",
+      "fundingAmount": "amount",
+      "fundingCurrency": "currency",
+      "fundingPercent": "percent",
+      "eligibleCountries": "eligible countries",
+      "educationLevels": "education levels",
+      "organizationId": "organization"
+    },
+    "orgs": {
+      "title": "Organizations",
+      "subtitle": "Official names are kept in their original language and never translated.",
+      "new": "New organization",
+      "edit": "Edit organization",
+      "fields": {
+        "name": "Official name",
+        "slug": "Slug",
+        "kind": "Kind",
+        "country": "Country",
+        "website": "Website (https)"
+      },
+      "opportunities": "Opportunities: {count}",
+      "save": "Save",
+      "create": "Create organization",
+      "saved": "Organization saved.",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this organization?",
+      "inUse": "An organization with opportunities cannot be deleted.",
+      "empty": "There are no organizations yet.",
+      "cancel": "Cancel",
+      "working": "Please wait…"
+    },
+    "sources": {
+      "title": "Data sources",
+      "subtitle": "The official sources of opportunities: an organization's own website, API or authorized feed.",
+      "rules": "Take data only from official sources. Prefer official APIs and authorized feeds where they exist, and respect each website's terms of use and technical restrictions. The platform never scrapes websites — a person records the date they checked the source.",
+      "new": "New source",
+      "edit": "Edit source",
+      "fields": {
+        "organizationName": "Organization name",
+        "websiteUrl": "Official website (https)",
+        "sourceType": "Type of organization",
+        "country": "Country",
+        "accessMethod": "How the data is obtained",
+        "notes": "Notes (terms of use, contacts, quirks)",
+        "isActive": "Active source",
+        "organization": "Linked organization"
+      },
+      "accessMethods": {
+        "official_api": "Official API",
+        "authorized_feed": "Authorized feed",
+        "official_website": "Official website (read by a person)",
+        "manual": "Manual entry"
+      },
+      "lastChecked": "Last checked: {date}",
+      "never": "Never checked",
+      "overdue": "Check overdue",
+      "active": "Active",
+      "inactive": "Inactive",
+      "markChecked": "Mark as checked",
+      "openSite": "Open the official site",
+      "save": "Save",
+      "create": "Create source",
+      "saved": "Source saved.",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this source? Imported opportunities are kept.",
+      "empty": "There are no sources yet.",
+      "cancel": "Cancel",
+      "working": "Please wait…"
+    },
+    "import": {
+      "title": "Import opportunities from CSV",
+      "subtitle": "Check the file first, review every problem, then import only the valid rows as drafts.",
+      "steps": {
+        "template": "1. Download the template",
+        "upload": "2. Choose and check the file",
+        "review": "3. Review the result",
+        "import": "4. Import as drafts"
+      },
+      "template": {
+        "download": "Download the CSV template",
+        "help": "The template has every column and one example row; the example row is never imported. Lists use | as separator. Dates: 2030-03-31 or 31.03.2030 (date only = end of that day in the organization's time zone). The organization must already exist (slug or exact name). The original language is az, ru or en; texts in the other languages go in the translation columns."
+      },
+      "rules": {
+        "title": "Data-quality rules",
+        "official": "Every opportunity must have an official source URL.",
+        "draft": "Imported records are always created as unverified drafts and are never published automatically.",
+        "nothing": "Missing information is never invented: an empty cell stays empty.",
+        "translations": "Translations not marked as reviewed are stored as hidden machine drafts.",
+        "active": "A page that still exists does not make an opportunity active: the deadline and a person's check decide."
+      },
+      "upload": {
+        "file": "CSV file",
+        "paste": "Or paste the contents here",
+        "check": "Check the file",
+        "checking": "Checking…",
+        "clear": "Clear",
+        "tooLarge": "The file is too large (1 MB at most).",
+        "empty": "Choose a file or paste its contents first."
+      },
+      "preview": {
+        "title": "Check result",
+        "summary": {
+          "total": "Rows",
+          "importable": "Can be imported",
+          "errors": "With errors",
+          "duplicates": "Duplicates",
+          "possible": "Possible duplicates"
+        },
+        "columns": {
+          "line": "Line",
+          "title": "Title",
+          "organization": "Organization",
+          "status": "Status",
+          "problems": "Notes"
+        },
+        "statuses": {
+          "ok": "Ready",
+          "warning": "Ready with warnings",
+          "error": "Error",
+          "duplicate": "Duplicate",
+          "possible_duplicate": "Possible duplicate"
+        },
+        "noProblems": "No notes",
+        "errorPrefix": "Error",
+        "warningPrefix": "Warning",
+        "includePossible": "Also import possible duplicates (I will check them)",
+        "importButton": "{count, plural, one {Import # row} other {Import # rows}} as drafts",
+        "importing": "Importing…",
+        "nothingToImport": "There are no rows to import. Fix the errors and check the file again.",
+        "neverPublish": "Imported rows stay drafts: publishing still needs verification and review.",
+        "languages": "Languages: {languages}"
+      },
+      "fileProblems": {
+        "empty": "The file is empty.",
+        "too_large": "The file is too large.",
+        "too_many_rows": "Too many rows: only the first 200 are read.",
+        "unclosed_quote": "An unclosed quote: the file is not valid CSV.",
+        "cell_too_long": "Some cells are too long.",
+        "binary": "This is not a text file (CSV expected)."
+      },
+      "columns": {
+        "missing": "Missing columns: {columns}",
+        "unknown": "Unknown columns are ignored: {columns}",
+        "duplicate": "Duplicate columns: {columns}"
+      },
+      "issues": {
+        "too_many_cells": "The row has more cells than the header.",
+        "example_row": "This is the template's example row. Delete it.",
+        "organization_required": "The organization is missing.",
+        "organization_not_found": "Organization not found: “{value}”. Create it under Organizations first (slug or exact name).",
+        "original_language_unsupported": "The original language must be az, ru or en (now: “{value}”).",
+        "official_source_required": "The official source URL is required.",
+        "url_credentials": "The URL must not contain a user name or password.",
+        "url_ip_address": "An official source cannot be an IP address.",
+        "url_local_address": "A local or internal address is not an official source.",
+        "url_placeholder_domain": "A placeholder address (example.com etc.) is not an official source.",
+        "url_too_long": "The URL is too long.",
+        "url_url_shortener": "A shortened link is not the official page: use the real address.",
+        "url_social_media": "A social-media link is not an official source: use the organization's own website.",
+        "url_file_sharing": "A file-sharing or form link is not an official page.",
+        "url_host_mismatch": "The address does not match any registered source website.",
+        "deadline_in_past": "The deadline has passed: the opportunity will show as expired and cannot be published.",
+        "deadline_far_future": "The deadline is more than 3 years away — check the date.",
+        "deadline_unknown": "The deadline is not stated: publishing needs a date or “no deadline”.",
+        "short_description_missing": "The original has no short description (needed for publishing).",
+        "translation_missing": "No translation in {language}.",
+        "translations_unreviewed": "Translations will be stored as hidden machine drafts.",
+        "source_unknown": "Source “{value}” is not registered: the record will not be linked to a source.",
+        "source_unlinked": "No registered source matches the address.",
+        "source_inactive": "The source is marked inactive."
+      },
+      "duplicate": {
+        "of": "Duplicate of “{slug}” ({reason})",
+        "possibleOf": "Looks like “{slug}” ({reason})",
+        "inFile": "With line {line} of this file",
+        "reasons": {
+          "same_url": "same official page",
+          "same_slug": "same slug",
+          "similar_title": "similar title"
+        }
+      },
+      "results": {
+        "title": "Import result",
+        "created": "Created (drafts): {count}",
+        "skipped": "Skipped: {count}",
+        "failed": "Failed: {count}",
+        "batch": "Import batch: {batch}",
+        "review": "Review and verify the drafts",
+        "outcome": {
+          "created": "Created",
+          "skipped": "Skipped",
+          "failed": "Failed"
+        },
+        "reasons": {
+          "duplicate": "duplicate",
+          "possible_duplicate": "possible duplicate",
+          "error": "error"
+        }
+      },
+      "recent": {
+        "title": "Recent imports and review",
+        "empty": "No imports yet.",
+        "counts": "{total} total · {draft} draft · {inReview} in review · {published} published",
+        "open": "Open"
+      }
+    },
+    "quality": {
+      "title": "Data quality",
+      "subtitle": "Expired, stale-verified and unchecked data.",
+      "never": "A page that still exists does not make an opportunity active. Only the deadline and a person's check decide.",
+      "expire": {
+        "title": "Expired opportunity detection",
+        "text": "Verified opportunities whose deadline has passed are flagged as expired. They are not deleted or unpublished — they simply stop showing as active.",
+        "button": "Check and flag",
+        "working": "Checking…",
+        "result": "{count, plural, one {# opportunity was flagged as expired.} other {# opportunities were flagged as expired.}}",
+        "pending": "Waiting to be flagged: {count}"
+      },
+      "stale": {
+        "title": "Verification older than 90 days",
+        "text": "Check the official source again and renew the verification.",
+        "empty": "No stale verifications."
+      },
+      "sources": {
+        "title": "Sources overdue for a check",
+        "empty": "All active sources were checked recently."
+      },
+      "missing": {
+        "title": "Published with missing translations",
+        "empty": "Every published opportunity has AZ, RU and EN text."
+      },
+      "open": "Open",
+      "cappedNote": "Each list shows at most 100 items."
+    }
+  }
+}

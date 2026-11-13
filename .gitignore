@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+next-env.d.ts
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.vercel/
+npm-debug.log*
+.DS_Store
+
+# Supabase CLI local state
+supabase/.temp/
+supabase/.branches/

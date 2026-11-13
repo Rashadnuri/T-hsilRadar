@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* TəhsilRadar design tokens — white/light surfaces, navy + blue brand.
+   Names follow shadcn/ui so `shadcn add` components pick them up. */
+:root {
+  --radius: 0.75rem;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --surface: #f5f8fd;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --primary: #0f2557; /* navy */
+  --primary-foreground: #ffffff;
+  --secondary: #eaf1fd;
+  --secondary-foreground: #0f2557;
+  --accent: #2563eb; /* blue (5.2:1 on white) */
+  --accent-foreground: #ffffff;
+  --muted: #f1f5f9;
+  --muted-foreground: #475569; /* 7.5:1 on white */
+  --destructive: #b91c1c;
+  --border: #dbe3f0;
+  --input: #cbd5e1;
+  --ring: #2563eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --shadow-card: 0 1px 2px rgb(15 37 87 / 0.05), 0 6px 20px -8px rgb(15 37 87 / 0.12);
+  --shadow-card-hover: 0 2px 4px rgb(15 37 87 / 0.06), 0 14px 32px -10px rgb(15 37 87 / 0.22);
+  --shadow-soft: 0 1px 2px rgb(15 37 87 / 0.06);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Long words (Russian, Azerbaijani compounds) must wrap instead of overflowing. */
+  h1, h2, h3, h4, p, li, a, label, span { overflow-wrap: anywhere; }
+  h1, h2, h3 {
+    color: var(--primary);
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

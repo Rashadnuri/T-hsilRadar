@@ -1,0 +1,39 @@
+# Supabase CLI configuration (local development stack: `supabase start`).
+# Hosted projects are configured in the Supabase dashboard; this file only affects local runs.
+project_id = "tahsilradar"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[db.seed]
+# `supabase db reset` loads this DEMO-ONLY file after the migrations. Never load it in production.
+enabled = true
+sql_paths = ["./seed.sql"]
+
+# LOCAL development stack only. A hosted project's Auth settings live in the Supabase dashboard
+# (Authentication → URL Configuration, Sign In / Providers): see DEPLOYMENT.md §4.
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+# Where confirmation / password-reset links may land (the app handles them at /<locale>/auth/callback).
+additional_redirect_urls = [
+  "http://localhost:3000/az/auth/callback",
+  "http://localhost:3000/ru/auth/callback",
+  "http://localhost:3000/en/auth/callback",
+]
+enable_signup = true
+# Keep equal to PASSWORD_MIN in src/validation/auth.ts.
+minimum_password_length = 10
+
+[auth.email]
+enable_signup = true
+# Accounts must confirm their e-mail address (local mails appear in the Inbucket web UI on port 54324).
+enable_confirmations = true

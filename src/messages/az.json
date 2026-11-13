@@ -1,0 +1,1378 @@
+{
+  "common": {
+    "siteName": "TəhsilRadar",
+    "skipToContent": "Əsas məzmuna keç",
+    "backToHome": "Ana səhifəyə qayıt",
+    "tryAgain": "Yenidən cəhd et",
+    "loading": "Yüklənir…",
+    "viewAll": "Hamısına bax"
+  },
+  "metadata": {
+    "defaultTitle": "TəhsilRadar — təhsil və karyera imkanları",
+    "titleTemplate": "%s | TəhsilRadar",
+    "defaultDescription": "Azərbaycanda və dünyada təqaüdlər, təcrübə proqramları, qəbul, kurslar və digər təhsil və karyera imkanlarını rəsmi mənbə ilə kəşf edin.",
+    "opportunitiesTitle": "İmkanlar kataloqu",
+    "opportunitiesDescription": "Təqaüd, təcrübə, qəbul, mübadilə, kurs və digər imkanları axtarın və süzgəcdən keçirin.",
+    "opportunitiesPageTitle": "{title} — səhifə {page}",
+    "aboutTitle": "Platforma haqqında",
+    "aboutDescription": "TəhsilRadar nədir, hansı prinsiplərlə işləyir və məlumatların etibarlılığını necə təmin edir.",
+    "contactTitle": "Əlaqə",
+    "contactDescription": "Sual, təklif, əməkdaşlıq və ya məlumatda səhv barədə TəhsilRadar komandası ilə əlaqə saxlayın.",
+    "loginTitle": "Daxil ol",
+    "loginDescription": "TəhsilRadar hesabınıza daxil olun.",
+    "registerTitle": "Qeydiyyat",
+    "registerDescription": "TəhsilRadar-da pulsuz hesab yaradın.",
+    "forgotPasswordTitle": "Şifrənin bərpası",
+    "forgotPasswordDescription": "Şifrənizi bərpa etmək üçün e-poçt ünvanınızı daxil edin.",
+    "notFoundTitle": "Səhifə tapılmadı",
+    "profileTitle": "Profilim",
+    "profileDescription": "Şəxsi profiliniz: təhsil, bacarıqlar və maraqlar.",
+    "resetPasswordTitle": "Yeni şifrə",
+    "resetPasswordDescription": "Hesabınız üçün yeni şifrə təyin edin.",
+    "myPlanTitle": "Planım",
+    "myPlanDescription": "Yadda saxladığınız imkanlar, müraciətlər və şəxsi qeydləriniz.",
+    "matchesTitle": "Mənə uyğun imkanlar",
+    "matchesDescription": "Profilinizə görə sıralanmış imkanlar və uyğunluğun izahı.",
+    "adminTitle": "İdarəetmə paneli",
+    "adminDescription": "İmkanların, təşkilatların və tərcümələrin idarə edilməsi."
+  },
+  "nav": {
+    "label": "Əsas naviqasiya",
+    "opportunities": "İmkanlar",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "login": "Daxil ol",
+    "register": "Qeydiyyat",
+    "openMenu": "Menyunu aç",
+    "closeMenu": "Menyunu bağla",
+    "profile": "Profil",
+    "logout": "Çıxış",
+    "myPlan": "Planım",
+    "matches": "Uyğun imkanlar",
+    "admin": "İdarəetmə"
+  },
+  "languageSwitcher": {
+    "label": "Dil",
+    "footerLabel": "Dil seçimi (səhifənin sonu)",
+    "switchTo": "Dili dəyiş: {language}"
+  },
+  "header": {
+    "home": "TəhsilRadar ana səhifəsi"
+  },
+  "footer": {
+    "tagline": "Azərbaycanda və dünyada təhsil və karyera imkanlarını rəsmi mənbə ilə kəşf edin.",
+    "platform": "Platforma",
+    "account": "Hesab",
+    "language": "Dil",
+    "rights": "© {year} TəhsilRadar. Bütün hüquqlar qorunur.",
+    "disclaimer": "Platforma hazırlanma mərhələsindədir.",
+    "demoNote": "Nümunə kartlar demo məzmundur və real imkan deyil."
+  },
+  "demo": {
+    "badge": "Demo",
+    "title": "Demo məzmun.",
+    "text": "Bu kartlar yalnız vizual test üçündür: təşkilatlar və proqramlar uydurmadır və real imkan deyil."
+  },
+  "search": {
+    "label": "İmkan axtarışı",
+    "placeholder": "Təqaüd, təcrübə, kurs, universitet…",
+    "button": "Axtar"
+  },
+  "orgKinds": {
+    "government": "Dövlət qurumu",
+    "university": "Universitet",
+    "bank": "Bank və ya maliyyə qurumu",
+    "company": "Özəl şirkət",
+    "it_company": "İT şirkəti",
+    "ngo": "Qeyri-hökumət təşkilatı",
+    "international_org": "Beynəlxalq təşkilat",
+    "scholarship_org": "Təqaüd təşkilatı",
+    "development_org": "İnkişaf təşkilatı"
+  },
+  "scope": {
+    "azerbaijan": "Azərbaycan",
+    "international": "Beynəlxalq",
+    "both": "Azərbaycan və beynəlxalq"
+  },
+  "funding": {
+    "fully_funded": "Tam maliyyələşdirilir",
+    "partially_funded": "Qismən maliyyələşdirilir",
+    "paid": "Haqqı ödənilir",
+    "unpaid": "Haqqı ödənilmir",
+    "tuition_discount": "Təhsil haqqı endirimi",
+    "not_specified": "Göstərilməyib",
+    "period": {
+      "monthly": "aylıq",
+      "yearly": "illik"
+    }
+  },
+  "level": {
+    "high_school": "Orta təhsil",
+    "bachelor": "Bakalavr",
+    "master": "Magistratura",
+    "phd": "Doktorantura",
+    "graduate": "Məzun",
+    "professional": "Peşəkar"
+  },
+  "deadlineFilter": {
+    "open": "Müraciətə açıq",
+    "week": "7 gün ərzində bitən",
+    "month": "30 gün ərzində bitən",
+    "rolling": "Davamlı qəbul",
+    "expired": "Müddəti bitmiş"
+  },
+  "lifecycle": {
+    "open": "Müraciətə açıq",
+    "closingSoon": "Tezliklə bağlanır",
+    "rolling": "Davamlı qəbul",
+    "expired": "Müddəti keçib",
+    "upcoming": "Tezliklə başlayır",
+    "unknown": "Son tarix göstərilməyib"
+  },
+  "sort": {
+    "label": "Sıralama",
+    "relevance": "Uyğunluğa görə",
+    "deadline": "Ən yaxın son tarix",
+    "newest": "Ən yenilər",
+    "updated": "Son yenilənənlər"
+  },
+  "filters": {
+    "title": "Filtrlər",
+    "scope": "Coğrafiya",
+    "level": "Təhsil səviyyəsi",
+    "funding": "Maliyyələşmə",
+    "deadline": "Son tarix",
+    "any": "Hamısı",
+    "apply": "Tətbiq et",
+    "reset": "Sıfırla",
+    "type": "Növ",
+    "locationType": "Format",
+    "country": "Ölkə",
+    "city": "Şəhər",
+    "field": "Sahə",
+    "verification": "Yoxlama statusu"
+  },
+  "card": {
+    "location": "Məkan",
+    "format": "Format",
+    "funding": "Maliyyələşmə",
+    "deadline": "Son tarix",
+    "daysLeft": "{days, plural, =0 {Bu gün bağlanır} other {# gün qalıb}}",
+    "availableIn": "Mövcud dillər: {languages}",
+    "shownIn": "Tərcümə yoxdur — orijinal göstərilir: {language}",
+    "ended": "Bitib"
+  },
+  "catalogue": {
+    "title": "İmkanlar kataloqu",
+    "subtitle": "Təqaüd, təcrübə, qəbul, mübadilə, kurs və digər imkanları axtarın və süzgəcdən keçirin.",
+    "results": "{count, plural, =0 {Nəticə tapılmadı} other {# nəticə tapıldı}}",
+    "activeFilters": "Aktiv filtrlər",
+    "removeFilter": "Filtri sil: {label}",
+    "empty": {
+      "title": "Kataloq hələ boşdur",
+      "text": "Hazırda dərc olunmuş imkan yoxdur. Kataloqa yalnız rəsmi mənbə ilə yoxlanılmış imkanlar əlavə olunacaq.",
+      "filteredTitle": "Heç nə tapılmadı",
+      "filteredText": "Axtarışınıza uyğun imkan yoxdur. Süzgəcləri dəyişin və ya sıfırlayın.",
+      "reset": "Süzgəcləri sıfırla",
+      "about": "Platforma haqqında",
+      "suggestion": "Axtarış sözünü qısaldın, başqa söz sınayın və ya aktiv filtrlərdən birini silin."
+    },
+    "updating": "Nəticələr yenilənir…",
+    "scopeTabs": {
+      "label": "Coğrafiya",
+      "all": "Hamısı",
+      "azerbaijan": "Azərbaycan",
+      "international": "Beynəlxalq"
+    },
+    "azerbaijan": {
+      "title": "Azərbaycanda imkanlar",
+      "subtitle": "Yerli imkanları şəhər və ya növ üzrə tez tapın.",
+      "cities": "Şəhərlər",
+      "shortcuts": "Sürətli keçidlər",
+      "scholarship": "Azərbaycanda təqaüdlər",
+      "internship": "Azərbaycanda təcrübə proqramları",
+      "grant": "Azərbaycanda qrantlar"
+    }
+  },
+  "pagination": {
+    "label": "Səhifələmə",
+    "previous": "Əvvəlki səhifə",
+    "next": "Növbəti səhifə",
+    "page": "Səhifə {page}"
+  },
+  "detail": {
+    "back": "İmkanlara qayıt",
+    "factsTitle": "Əsas məlumatlar",
+    "organization": "Təşkilat",
+    "market": "Coğrafiya",
+    "location": "Məkan",
+    "format": "Format",
+    "funding": "Maliyyələşmə",
+    "levels": "Təhsil səviyyəsi",
+    "deadline": "Son tarix",
+    "languages": "Mövcud dillər",
+    "sourceTitle": "Rəsmi mənbə",
+    "sourceDemo": "Bu demo qeyddir və rəsmi mənbəsi yoxdur. Həqiqi imkanlarda burada təşkilatın rəsmi səhifəsinə keçid göstəriləcək.",
+    "sourceReal": "Müraciət etməzdən əvvəl məlumatı təşkilatın rəsmi səhifəsində yoxlayın.",
+    "expiredBanner": "Bu imkan üzrə müraciət müddəti başa çatıb.",
+    "notSpecified": "Göstərilməyib",
+    "participationFee": "İştirak haqqı",
+    "fields": "Sahələr",
+    "eligibleCountries": "Uyğun ölkələr",
+    "startDate": "Müraciətin başlanğıcı",
+    "sections": {
+      "description": "Haqqında",
+      "eligibility": "Uyğunluq şərtləri",
+      "requirements": "Tələblər",
+      "benefits": "Üstünlüklər"
+    },
+    "verification": "Yoxlama statusu",
+    "sourceUrl": "Rəsmi mənbə keçidi",
+    "apply": {
+      "button": "Rəsmi saytda müraciət et",
+      "closed": "Müraciət müddəti bitib",
+      "upcoming": "Müraciət {date} tarixində başlayır",
+      "checkDeadline": "Son tarix göstərilməyib: müraciətdən əvvəl rəsmi saytı yoxlayın.",
+      "demoNote": "Demo keçid (example.com): real müraciət səhifəsi deyil.",
+      "newTab": "yeni tabda açılır"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Platforma hazırlanır",
+      "title": "Təhsil və karyera imkanlarını etibarlı mənbələrdən kəşf edin",
+      "subtitle": "Tələbələr, məzunlar və gənc mütəxəssislər üçün Azərbaycanda və dünyada təqaüd, təcrübə, qəbul və kurs imkanları — hər biri rəsmi mənbə ilə.",
+      "popular": "Populyar:",
+      "secondaryCta": "Platforma haqqında",
+      "points": {
+        "source": "Hər imkan rəsmi mənbə ilə",
+        "markets": "Azərbaycan və beynəlxalq imkanlar",
+        "languages": "AZ, RU və EN dillərində"
+      }
+    },
+    "categories": {
+      "title": "Kateqoriyalar",
+      "subtitle": "{count, number} kateqoriya üzrə imkanlar. Kateqoriya seçərək kataloqa keçin."
+    },
+    "featured": {
+      "title": "Seçilmiş imkanlar",
+      "subtitle": "Diqqətə layiq imkanlardan nümunə seçim."
+    },
+    "azerbaijan": {
+      "title": "Azərbaycanda imkanlar",
+      "subtitle": "Dövlət qurumları, universitetlər, banklar, texnologiya şirkətləri və QHT-lərin proqramları."
+    },
+    "international": {
+      "title": "Beynəlxalq imkanlar",
+      "subtitle": "Xaricdə təhsil, mübadilə, tədqiqat və karyera proqramları."
+    },
+    "how": {
+      "title": "Necə işləyir",
+      "subtitle": "Üç addımda: tapın, izləyin, uyğunluğu anlayın.",
+      "steps": {
+        "search": {
+          "title": "Axtarın və süzgəcdən keçirin",
+          "text": "Kateqoriya, ölkə, son tarix, maliyyələşmə və təhsil səviyyəsi üzrə sizə uyğun imkanı tapın."
+        },
+        "track": {
+          "title": "Yadda saxlayın və izləyin",
+          "text": "İmkanları saxlayın, müraciət statusunuzu və son tarixləri bir yerdə izləyin."
+        },
+        "match": {
+          "title": "Uyğunluğu anlayın",
+          "text": "Profilinizin meyarlara nə qədər uyğun olduğunu və nəyin çatışmadığını izahatla görün."
+        }
+      }
+    },
+    "trust": {
+      "title": "Etibar prinsiplərimiz",
+      "subtitle": "Bu qaydalar dərc olunan hər imkana tətbiq olunur."
+    },
+    "cta": {
+      "title": "İmkanları qaçırmayın",
+      "text": "Pulsuz hesab yaradın, imkanları yadda saxlayın və son tarixləri bir yerdə izləyin.",
+      "primary": "Qeydiyyatdan keç",
+      "secondary": "Kataloqa bax"
+    }
+  },
+  "principles": {
+    "source": {
+      "title": "Rəsmi mənbə",
+      "text": "Dərc olunan hər imkanın təşkilatı və rəsmi mənbə keçidi göstərilir."
+    },
+    "verified": {
+      "title": "Yoxlanılmış və aktual",
+      "text": "İmkanlar dərcdən əvvəl yoxlanılır. Vaxtı keçmiş elanlar aktiv kimi göstərilmir."
+    },
+    "languages": {
+      "title": "Üç dildə",
+      "text": "İnterfeys Azərbaycan, rus və ingilis dillərindədir. Çatışmayan tərcümələr uydurulmur, orijinal dildə göstərilir."
+    },
+    "ai": {
+      "title": "Dürüst süni intellekt",
+      "text": "Uyğunluq göstəricisi profilinizin meyarlara uyğunluğunu ifadə edir. Bu, qəbul və ya seçilmə ehtimalı deyil."
+    }
+  },
+  "about": {
+    "title": "Platforma haqqında",
+    "intro": "TəhsilRadar tələbələrə, məzunlara və gənc mütəxəssislərə Azərbaycanda və dünyada təhsil və karyera imkanlarını tapmağa kömək edən çoxdilli platformadır.",
+    "mission": "Məqsədimiz dağınıq məlumatı bir yerə toplamaq, rəsmi mənbəyə istinad etmək və istifadəçilərə vaxtında qərar verməkdə kömək etməkdir. Azərbaycan dövlət qurumları, universitetlər, banklar, texnologiya şirkətləri və qeyri-hökumət təşkilatları tərəfindən təqdim olunan imkanlar beynəlxalq imkanlarla bərabər nəzərə alınır.",
+    "audience": {
+      "title": "Kimlər üçündür",
+      "subtitle": "TəhsilRadar təhsil və karyera yolunun müxtəlif mərhələlərində olan insanlar üçün hazırlanır.",
+      "students": {
+        "title": "Tələbələr və abituriyentlər",
+        "text": "Təqaüd, qəbul, mübadilə və yay məktəbləri üzrə imkanları və son tarixləri izləyin."
+      },
+      "professionals": {
+        "title": "Məzunlar və gənc mütəxəssislər",
+        "text": "Təcrübə, kurs, sertifikat və tədqiqat imkanlarını karyera məqsədlərinizə görə seçin."
+      },
+      "organizations": {
+        "title": "Təşkilatlar",
+        "text": "Universitetlər, banklar, şirkətlər və QHT-lər imkanlarını təqdim edə biləcək; hər təqdimat yoxlanılacaq."
+      }
+    },
+    "verify": {
+      "title": "İmkanlar necə yoxlanılır",
+      "subtitle": "Hər imkan dərc olunmazdan əvvəl eyni yoxlama addımlarından keçəcək.",
+      "steps": {
+        "source": {
+          "title": "Rəsmi mənbə",
+          "text": "Məlumatın təşkilatın rəsmi səhifəsinə əsaslandığı təsdiqlənir."
+        },
+        "organization": {
+          "title": "Təşkilatın kimliyi",
+          "text": "Təşkilatın həqiqi olduğu və sayt ünvanının ona məxsus olduğu yoxlanılır."
+        },
+        "deadline": {
+          "title": "Son tarix və şərtlər",
+          "text": "Son tarix, şərtlər və keçidlər mənbə ilə tutuşdurulur; ödəniş tələb edən şübhəli elanlar rədd edilir."
+        },
+        "review": {
+          "title": "Redaktor təsdiqi",
+          "text": "Yoxlama tarixi qeyd olunur, vaxtı keçən imkanlar aktiv kimi göstərilmir."
+        }
+      }
+    },
+    "principles": {
+      "title": "Prinsiplərimiz",
+      "subtitle": "Etibar və şəffaflıq məhsulun əsas qaydalarıdır."
+    },
+    "status": "Platforma hazırlanma mərhələsindədir. Bu səhifədəki prinsiplər dərc olunacaq məzmuna tətbiq olunacaq qaydaları əks etdirir.",
+    "cta": {
+      "title": "Sualınız var?",
+      "text": "Təklif, əməkdaşlıq və ya düzəliş üçün bizimlə əlaqə saxlayın.",
+      "primary": "İmkanlara bax",
+      "secondary": "Əlaqə"
+    }
+  },
+  "contact": {
+    "title": "Əlaqə",
+    "subtitle": "Sual, təklif və ya əməkdaşlıq üçün bizə yazın.",
+    "topicsTitle": "Müraciət mövzuları",
+    "topics": {
+      "general": {
+        "title": "Ümumi suallar",
+        "text": "Platforma, hesab və funksiyalar haqqında suallar.",
+        "subject": "TəhsilRadar: sual"
+      },
+      "partnership": {
+        "title": "Əməkdaşlıq",
+        "text": "Universitetlər, banklar, şirkətlər və QHT-lər üçün imkanların yerləşdirilməsi.",
+        "subject": "TəhsilRadar: əməkdaşlıq"
+      },
+      "report": {
+        "title": "Məlumatda səhv bildirin",
+        "text": "Yanlış, köhnəlmiş və ya şübhəli elan barədə məlumat verin.",
+        "subject": "TəhsilRadar: məlumat səhvi"
+      }
+    },
+    "detailsNote": "Əlaqə məlumatları platforma açılarkən dərc olunacaq.",
+    "mail": {
+      "title": "Bizə e-poçtla yazın",
+      "text": "Mövzunu soldan seçin ki, e-poçt proqramınız mövzu sətri doldurulmuş şəkildə açılsın, yaxud aşağıdakı ünvana yazın.",
+      "cta": "E-məktub göndər",
+      "reportHint": "Səhvi bildirirsiniz? Zəhmət olmasa imkanın keçidini və mümkünsə düzgün məlumatı göstərən rəsmi səhifəni əlavə edin.",
+      "topicCta": "Bu barədə yazın"
+    },
+    "mailNote": "Hər mesajı oxuyuruq. Zəhmət olmasa parol və ya şəxsi sənəd göndərməyin.",
+    "form": {
+      "title": "Bizə yazın",
+      "notice": "Forma hələ aktiv deyil: bu səhifə yalnız dizaynı göstərir və yazdığınız heç nə göndərilmir.",
+      "name": "Ad",
+      "email": "E-poçt",
+      "topic": "Mövzu",
+      "message": "Mesaj",
+      "submit": "Göndər"
+    }
+  },
+  "auth": {
+    "email": "E-poçt",
+    "emailPlaceholder": "ad@example.com",
+    "password": "Şifrə",
+    "name": "Ad və soyad",
+    "forgot": "Şifrəni unutmusunuz?",
+    "shell": {
+      "title": "Təhsil yolunuzu bir yerdən idarə edin",
+      "text": "Hesab imkanları yadda saxlamağa, müraciətləri izləməyə və şəxsi tövsiyələr almağa kömək edəcək.",
+      "benefits": {
+        "save": {
+          "title": "İmkanları yadda saxlayın",
+          "text": "Maraqlandığınız proqramlar bütün cihazlarda əlinizin altında olsun."
+        },
+        "match": {
+          "title": "Uyğunluğu anlayın",
+          "text": "Profilinizin meyarlara nə qədər uyğun olduğunu izahatla görün."
+        },
+        "privacy": {
+          "title": "Məlumatlarınız sizindir",
+          "text": "Şəxsi qeydləriniz yalnız sizə görünür və istənilən vaxt silinə bilər."
+        }
+      }
+    },
+    "login": {
+      "title": "Daxil ol",
+      "subtitle": "Hesabınıza daxil olaraq saxlanmış imkanlara qayıdın.",
+      "submit": "Daxil ol",
+      "switchText": "Hesabınız yoxdur?",
+      "switchLink": "Qeydiyyatdan keçin"
+    },
+    "register": {
+      "title": "Hesab yaradın",
+      "subtitle": "Pulsuz qeydiyyatdan keçin və imkanları izləməyə başlayın.",
+      "submit": "Qeydiyyatdan keç",
+      "passwordHint": "Ən azı 10 simvol.",
+      "consent": "İstifadə şərtləri və məxfilik siyasəti qeydiyyat aktiv olmazdan əvvəl dərc olunacaq.",
+      "switchText": "Artıq hesabınız var?",
+      "switchLink": "Daxil olun",
+      "confirmPassword": "Şifrəni təkrarlayın",
+      "checkEmail": {
+        "title": "E-poçtunuzu yoxlayın",
+        "text": "Əgər {email} ünvanı ilə qeydiyyat mümkündürsə, təsdiq linki göndərildi. Spam qovluğunu da yoxlayın."
+      }
+    },
+    "forgotPassword": {
+      "title": "Şifrəni bərpa edin",
+      "subtitle": "E-poçt ünvanınızı daxil edin, bərpa təlimatını göndərək.",
+      "submit": "Bərpa linki göndər",
+      "switchText": "Şifrənizi xatırladınız?",
+      "switchLink": "Daxil olun",
+      "sent": {
+        "title": "Əgər hesab varsa, link göndərildi",
+        "text": "{email} ünvanı üçün hesab mövcuddursa, şifrəni bərpa etmək üçün link göndərdik. Linkin müddəti məhduddur."
+      }
+    },
+    "showPassword": "Şifrəni göstər",
+    "hidePassword": "Şifrəni gizlət",
+    "pending": "Gözləyin…",
+    "resetPassword": {
+      "title": "Yeni şifrə təyin edin",
+      "subtitle": "Hesabınız üçün yeni şifrə seçin.",
+      "submit": "Şifrəni yenilə",
+      "newPassword": "Yeni şifrə"
+    }
+  },
+  "notFound": {
+    "title": "Səhifə tapılmadı",
+    "text": "Axtardığınız səhifə mövcud deyil və ya köçürülüb.",
+    "code": "404"
+  },
+  "error": {
+    "title": "Xəta baş verdi",
+    "text": "Səhifəni yükləmək mümkün olmadı. Bir az sonra yenidən cəhd edin.",
+    "reference": "Xəta kodu: {digest}"
+  },
+  "opportunityTypes": {
+    "scholarship": "Təqaüdlər",
+    "grant": "Qrantlar",
+    "internship": "Təcrübə və trainee proqramları",
+    "admission": "Universitetə qəbul",
+    "exchange": "Mübadilə proqramları",
+    "training": "Təlim kursları",
+    "certification": "Peşəkar sertifikatlar",
+    "summer_school": "Yay məktəbləri",
+    "hackathon": "Hakatonlar",
+    "competition": "Müsabiqələr",
+    "research": "Tədqiqat proqramları",
+    "other": "Digər imkanlar"
+  },
+  "locationType": {
+    "remote": "Məsafədən (onlayn)",
+    "onsite": "Əyani",
+    "hybrid": "Hibrid"
+  },
+  "fields": {
+    "education": "Təhsil",
+    "arts_humanities": "İncəsənət və humanitar elmlər",
+    "social_sciences": "Sosial elmlər və jurnalistika",
+    "business_law": "Biznes, idarəetmə və hüquq",
+    "natural_sciences": "Təbiət elmləri, riyaziyyat və statistika",
+    "ict": "İnformasiya və kommunikasiya texnologiyaları",
+    "engineering": "Mühəndislik, istehsal və tikinti",
+    "agriculture": "Kənd təsərrüfatı, meşə və baytarlıq",
+    "health": "Səhiyyə və sosial rifah",
+    "services": "Xidmətlər",
+    "general": "Ümumi proqramlar"
+  },
+  "verification": {
+    "verified": "Yoxlanılıb",
+    "unverified": "Yoxlanılmayıb",
+    "rejected": "Rədd edilib",
+    "expired": "Müddəti keçib",
+    "verifiedOn": "{date} tarixində yoxlanılıb",
+    "demo": "Demo qeyd: yoxlanılmayıb"
+  },
+  "translation": {
+    "machine": "Maşın tərcüməsi: dəqiqliyi rəsmi mənbədə yoxlayın.",
+    "outdated": "Tərcümə orijinal dəyişdikdən sonra yenilənməyib və köhnəlmiş ola bilər.",
+    "someShownIn": "Məzmunun bir hissəsi tərcümə olunmayıb və orijinal dildə göstərilir: {languages}.",
+    "sectionShownIn": "Bu bölmə orijinal dildə göstərilir: {language}. Tərcümə hələ yoxdur."
+  },
+  "validation": {
+    "required": "Bu sahə mütləqdir.",
+    "invalid_email": "Düzgün e-poçt ünvanı daxil edin.",
+    "password_too_short": "Şifrə ən azı {min} simvol olmalıdır.",
+    "password_too_long": "Şifrə {max} baytdan uzun ola bilməz.",
+    "password_same_as_email": "Şifrə e-poçt ünvanınızla eyni ola bilməz.",
+    "passwords_do_not_match": "Şifrələr üst-üstə düşmür.",
+    "name_too_short": "Ad ən azı {min} simvol olmalıdır.",
+    "text_too_long": "Ən çox {max} simvol ola bilər.",
+    "html_not_allowed": "HTML teqlərinə icazə verilmir.",
+    "invalid_choice": "Siyahıdan düzgün seçim edin.",
+    "invalid_year": "{min} ilə {max} arasında il daxil edin.",
+    "too_many_items": "Ən çox {max} element əlavə etmək olar.",
+    "item_too_long": "Hər element ən çox {max} simvol ola bilər.",
+    "invalid_country": "Siyahıdan ölkə seçin.",
+    "invalid_language": "Dili və səviyyəni düzgün seçin.",
+    "duplicate_items": "Təkrarlanan dəyərlər var.",
+    "form_invalid": "Formada düzəldilməli xətalar var.",
+    "invalid_url": "Düzgün https:// ünvanı daxil edin.",
+    "invalid_slug": "Yalnız kiçik latın hərfləri, rəqəmlər və defis (məsələn, my-program).",
+    "invalid_amount": "Müsbət ədəd daxil edin.",
+    "invalid_currency": "3 hərfli valyuta kodu (məsələn, EUR).",
+    "invalid_date": "Düzgün tarix və vaxt daxil edin.",
+    "invalid_timezone": "Naməlum saat qurşağı (məsələn, Asia/Baku).",
+    "deadline_required": "Sabit son tarix üçün tarix göstərin.",
+    "deadline_not_allowed": "Bu son tarix növü üçün tarix göstərilmir.",
+    "other_label_required": "«Digər» növü üçün ad yazın.",
+    "other_label_not_allowed": "Ad yalnız «Digər» növü üçündür.",
+    "city_conflict": "Şəhər seçimi ölkəyə uyğun deyil və ya həm siyahı, həm mətn doldurulub.",
+    "dates_out_of_order": "Başlanğıc tarixi son tarixdən sonra ola bilməz.",
+    "funding_pair": "Məbləğ və valyuta birlikdə doldurulmalıdır.",
+    "funding_not_allowed": "Bu maliyyələşmə növü üçün məbləğ göstərilmir.",
+    "percent_not_allowed": "Faiz yalnız təhsil haqqı endirimi üçündür."
+  },
+  "authErrors": {
+    "invalid_credentials": "E-poçt və ya şifrə yanlışdır.",
+    "email_not_confirmed": "E-poçt ünvanı hələ təsdiqlənməyib. Poçtunuza göndərilən təsdiq linkini açın.",
+    "weak_password": "Bu şifrə çox zəifdir. Daha uzun və fərqli şifrə seçin.",
+    "same_password": "Yeni şifrə köhnə şifrədən fərqli olmalıdır.",
+    "rate_limited": "Həddindən çox cəhd edilib. Bir az sonra yenidən cəhd edin.",
+    "registration_failed": "Qeydiyyatı tamamlamaq mümkün olmadı. Əgər artıq hesabınız varsa, daxil olun və ya şifrəni bərpa edin.",
+    "invalid_link": "Bu link etibarsızdır və ya müddəti keçib. Yenisini tələb edin.",
+    "session_missing": "Sessiyanın müddəti bitib. Yenidən daxil olun.",
+    "not_configured": "Autentifikasiya bu mühitdə konfiqurasiya olunmayıb.",
+    "unavailable": "Xidmət müvəqqəti əlçatan deyil. Bir az sonra yenidən cəhd edin.",
+    "save_failed": "Profili saxlamaq mümkün olmadı. Yenidən cəhd edin.",
+    "unauthorized": "Bu əməliyyat üçün hesabınıza daxil olmalısınız.",
+    "form_invalid": "Formada düzəldilməli xətalar var."
+  },
+  "profile": {
+    "title": "Profilim",
+    "subtitle": "Daha uyğun tövsiyələr almaq üçün məlumatlarınızı doldurun. Hamısı könüllüdür.",
+    "privacy": "Profiliniz şəxsidir: onu yalnız siz görə bilərsiniz və heç kimlə paylaşılmır.",
+    "saved": "Profil yadda saxlanıldı.",
+    "passwordUpdated": "Şifrəniz yeniləndi.",
+    "choose": "Seçin",
+    "save": "Yadda saxla",
+    "saving": "Saxlanılır…",
+    "account": {
+      "title": "Hesab",
+      "email": "E-poçt",
+      "logout": "Hesabdan çıx"
+    },
+    "sections": {
+      "about": "Haqqınızda",
+      "education": "Təhsil",
+      "preferences": "Maraqlar və üstünlüklər",
+      "skills": "Bacarıqlar və dillər"
+    },
+    "fields": {
+      "fullName": "Ad və soyad",
+      "educationLevel": "Təhsil səviyyəsi",
+      "university": "Universitet",
+      "academicField": "Təhsil sahəsi",
+      "graduationYear": "Bitirmə ili",
+      "countryOfResidence": "Yaşadığınız ölkə",
+      "preferredCountries": "Maraqlandığınız ölkələr",
+      "skills": "Bacarıqlar",
+      "languages": "Dillər",
+      "careerInterests": "Karyera maraqları",
+      "preferredTypes": "Üstün tutulan imkan növləri"
+    },
+    "hints": {
+      "skills": "Bacarığı yazıb Enter düyməsini basın. Ən çox {max} bacarıq.",
+      "careerInterests": "Maraq sahəsini yazıb Enter düyməsini basın. Ən çox {max}.",
+      "preferredCountries": "Siyahıdan ölkə seçib «Əlavə et» düyməsini basın. Ən çox {max} ölkə."
+    },
+    "tags": {
+      "add": "Əlavə et",
+      "remove": "Sil: {item}",
+      "none": "Hələ heç nə əlavə edilməyib."
+    },
+    "languagesField": {
+      "language": "Dil",
+      "level": "Səviyyə",
+      "add": "Dil əlavə et",
+      "remove": "Sətri sil",
+      "none": "Hələ dil əlavə edilməyib."
+    },
+    "languageLevels": {
+      "A1": "A1 — başlanğıc",
+      "A2": "A2 — elementar",
+      "B1": "B1 — orta",
+      "B2": "B2 — yuxarı orta",
+      "C1": "C1 — irəli",
+      "C2": "C2 — mükəmməl",
+      "native": "Ana dili"
+    }
+  },
+  "plan": {
+    "title": "Planım",
+    "subtitle": "Yadda saxladığınız imkanlar, müraciətlərinizin gedişi və son tarixlər — bir yerdə.",
+    "privacy": "Planınız və qeydləriniz şəxsidir: yalnız siz görə bilərsiniz.",
+    "loading": "Planınız yüklənir…",
+    "stats": {
+      "label": "Xülasə",
+      "applications": "Müraciətlər",
+      "saved": "Yadda saxlanılanlar",
+      "closingSoon": "Tezliklə bağlanır",
+      "expired": "Vaxtı bitib"
+    },
+    "sections": {
+      "applications": "Müraciətlərim",
+      "saved": "Yadda saxlanılanlar"
+    },
+    "empty": {
+      "applications": {
+        "title": "Hələ müraciət izlənilmir",
+        "text": "İmkan səhifəsində «Müraciəti izlə» düyməsini basın və statusunuzu, qeydlərinizi burada saxlayın."
+      },
+      "saved": {
+        "title": "Yadda saxlanılmış imkan yoxdur",
+        "text": "Kataloqda əlfəcin işarəli düyməni basaraq imkanları sonra baxmaq üçün saxlayın."
+      },
+      "filtered": "Bu statusda müraciət yoxdur.",
+      "browse": "Kataloqa keç"
+    },
+    "filter": {
+      "label": "Statusa görə süz",
+      "all": "Hamısı"
+    },
+    "status": {
+      "interested": "Maraqlanıram",
+      "preparing": "Hazırlaşıram",
+      "applied": "Müraciət etmişəm",
+      "interview": "Müsahibə",
+      "accepted": "Qəbul olunub",
+      "rejected": "Rədd edilib",
+      "withdrawn": "Geri götürülüb"
+    },
+    "deadline": {
+      "label": "Son tarix",
+      "endedOn": "Bitib: {date}",
+      "opensOn": "Müraciətlər {date} tarixində açılır",
+      "expiredNote": "Bu imkanın vaxtı bitib. Qeydləriniz saxlanılır."
+    },
+    "item": {
+      "view": "İmkana bax",
+      "savedOn": "Saxlanılıb: {date}",
+      "unavailable": {
+        "title": "Bu imkan artıq əlçatan deyil",
+        "text": "Yayımdan çıxarılıb. Siz onu planınızdan silə bilərsiniz."
+      }
+    },
+    "application": {
+      "status": "Status",
+      "notes": "Şəxsi qeydlər",
+      "notesPlaceholder": "Məsələn: tövsiyə məktubu, sənədlər, əlaqə şəxsi…",
+      "notesHint": "Qeydləri yalnız siz görürsünüz. Ən çox {max} simvol.",
+      "save": "Dəyişiklikləri saxla",
+      "saving": "Saxlanılır…",
+      "saved": "Dəyişikliklər saxlanıldı.",
+      "updated": "Yenilənib: {date}",
+      "stop": "İzləməni dayandır",
+      "stopConfirm": "İzləməni dayandırsanız, bu müraciətin statusu və qeydləri silinəcək. Davam edək?",
+      "stopping": "Silinir…"
+    },
+    "savedItem": {
+      "track": "Müraciəti izlə",
+      "remove": "Siyahıdan sil",
+      "removeLabel": "{title} imkanını yadda saxlanılanlardan sil",
+      "tracked": "İzlənilir: {status}",
+      "working": "Gözləyin…"
+    },
+    "save": {
+      "save": "Yadda saxla",
+      "saved": "Yadda saxlanılıb",
+      "add": "{title} imkanını yadda saxla",
+      "remove": "{title} imkanını yadda saxlanılanlardan sil",
+      "loginToSave": "Yadda saxlamaq üçün daxil olun",
+      "savedMessage": "İmkan yadda saxlanıldı."
+    },
+    "track": {
+      "add": "Müraciəti izlə",
+      "adding": "Əlavə edilir…",
+      "tracking": "İzlənilir: {status}",
+      "open": "Planıma keç"
+    },
+    "errors": {
+      "unauthorized": "Bu əməliyyat üçün daxil olun.",
+      "not_found": "Bu imkan artıq əlçatan deyil.",
+      "limit": "Planınızda maksimum say (500) çatılıb.",
+      "failed": "Əməliyyatı tamamlamaq mümkün olmadı. Yenidən cəhd edin.",
+      "invalid": "Formada düzəldilməli xətalar var."
+    }
+  },
+  "matching": {
+    "title": "Mənə uyğun imkanlar",
+    "subtitle": "Profilinizi elan olunmuş meyarlarla müqayisə edirik. Hesablama şəffaf qaydalara əsaslanır və süni intellekt tələb etmir.",
+    "disclaimer": "Uyğunluq balı profilinizin elan olunmuş meyarlara nə dərəcədə uyğun olduğunu göstərir. Bu, qəbul olunma və ya seçilmə ehtimalı deyil.",
+    "score": {
+      "label": "Uyğunluq balı",
+      "outOf": "{score} / 100"
+    },
+    "band": {
+      "strong": "Yüksək uyğunluq",
+      "good": "Yaxşı uyğunluq",
+      "partial": "Qismən uyğunluq",
+      "low": "Aşağı uyğunluq",
+      "insufficient": "Məlumat çatışmır",
+      "ineligible": "Tələblərə cavab vermir",
+      "closed": "Müraciət bağlıdır"
+    },
+    "eligibility": {
+      "eligible": "Elan olunmuş şərtlərə cavab verirsiniz",
+      "not_eligible": "Bəzi məcburi şərtlər ödənilmir",
+      "unknown": "Bütün şərtləri yoxlamaq mümkün deyil"
+    },
+    "completeness": "Yoxlanıla bilən meyarların {percent}%-i əsasında",
+    "sections": {
+      "reasons": "Niyə uyğundur",
+      "missing": "Nə çatışmır",
+      "unknown": "Yoxlanıla bilmədi"
+    },
+    "mandatory": "Məcburi şərt",
+    "manual": "Bəzi şərtlər (məsələn, qiymətlər, dil imtahanları və ya sənədlər) yalnız mətndə təsvir olunur və avtomatik yoxlanıla bilmir. Tam tələbləri oxuyun.",
+    "criterionName": {
+      "open": "Müraciət vəziyyəti",
+      "education": "Təhsil səviyyəsi",
+      "field": "Təhsil sahəsi",
+      "country": "Ölkə şərti",
+      "type": "İmkan növü",
+      "location": "Məkan",
+      "interests": "Bacarıq və maraqlar",
+      "language": "Dil"
+    },
+    "criteria": {
+      "open": {
+        "met": "Müraciətlər açıqdır.",
+        "met_upcoming": "Müraciətlər hələ açılmayıb.",
+        "met_rolling": "Davamlı qəbul: sabit son tarix yoxdur.",
+        "met_deadline_unknown": "Son tarix göstərilməyib: rəsmi mənbəni yoxlayın.",
+        "unmet": "Müraciət üçün son tarix keçib."
+      },
+      "education": {
+        "met": "Təhsil səviyyəniz ({yours}) qəbul olunur.",
+        "unmet": "Qəbul olunan səviyyələr: {accepted}. Sizin səviyyəniz: {yours}.",
+        "unmet_graduate_rule": "İmkan məzunlar üçündür. Gözlənilən bitirmə ilinizdir {year}, yəni hələ bitirməmisiniz.",
+        "met_graduate_rule": "İmkan məzunlar üçündür və bitirmə iliniz ({year}) uyğundur.",
+        "unknown": "Bu şərti yoxlamaq üçün təhsil səviyyənizi əlavə edin. Qəbul olunan: {accepted}.",
+        "unknown_needs_graduation_year": "Yalnız məzunlar üçün olan şərti yoxlamaq üçün bitirmə ilinizi əlavə edin."
+      },
+      "field": {
+        "met": "Təhsil sahəniz ({yours}) uyğundur.",
+        "unmet": "Uyğun sahələr: {accepted}. Sizin sahəniz: {yours}.",
+        "unknown": "Yoxlamaq üçün təhsil sahənizi əlavə edin. Uyğun sahələr: {accepted}."
+      },
+      "country": {
+        "met": "İmkan yaşayış ölkəniz ({yours}) üçün açıqdır.",
+        "unmet": "İmkan bu ölkələr üçündür: {accepted}. Yaşayış ölkəniz: {yours}. Şərt vətəndaşlığa əsaslana bilər — rəsmi səhifəni yoxlayın.",
+        "unknown": "Yoxlamaq üçün yaşayış ölkənizi əlavə edin. Açıqdır: {accepted}."
+      },
+      "type": {
+        "met": "Bu, üstün tutduğunuz imkan növlərindəndir ({accepted}).",
+        "unmet": "İmkanın növü: {accepted}. Bu, üstün tutduğunuz növlər arasında deyil.",
+        "unknown": "Profilinizdə üstün tutduğunuz imkan növlərini seçin."
+      },
+      "location": {
+        "met": "İmkan üstün tutduğunuz ölkədə keçirilir ({accepted}).",
+        "partial_remote": "İmkanı məsafədən də keçmək olar, ona görə üstün tutduğunuz ölkələr az əhəmiyyətlidir.",
+        "unmet": "İmkan {accepted} ölkəsində keçirilir, bu, üstün tutduğunuz ölkələr arasında deyil.",
+        "unknown": "Profilinizdə üstün tutduğunuz ölkələri əlavə edin."
+      },
+      "interests": {
+        "met": "Təsvirdə bacarıq və ya maraqlarınız qeyd olunur: {matched}.",
+        "partial": "Təsvirdə yalnız bu bacarıq və ya maraqlarınız tapıldı: {matched}.",
+        "unmet": "Bacarıq və maraqlarınızdan heç biri dərc olunmuş mətndə tapılmadı.",
+        "unknown": "Profilinizdə bacarıq və ya maraqlar əlavə edin.",
+        "unknown_no_text": "Bacarıqlarınızı müqayisə etmək üçün dərc olunmuş mətn kifayət deyil."
+      },
+      "language": {
+        "met": "İmkan oxuya biləcəyiniz dildə dərc olunub: {matched}.",
+        "partial_low_level": "İmkan {matched} dilində dərc olunub, lakin həmin dildə səviyyəniz başlanğıcdır.",
+        "unmet": "İmkan bu dillərdə dərc olunub: {accepted}. Bilik dilləriniz uyğun gəlmir.",
+        "unknown": "Profilinizdə bildiyiniz dilləri əlavə edin."
+      }
+    },
+    "panel": {
+      "title": "Sizə nə dərəcədə uyğundur",
+      "loading": "Uyğunluq hesablanır…",
+      "login": "Bu imkanın profilinizə nə dərəcədə uyğun olduğunu görmək üçün daxil olun.",
+      "loginLink": "Daxil ol",
+      "noProfile": "Profil məlumatlarınız boşdur, buna görə bir çox meyar yoxlanıla bilmir.",
+      "completeProfile": "Profili doldur",
+      "error": "Uyğunluğu hesablamaq mümkün olmadı. Yenidən cəhd edin.",
+      "retry": "Yenidən cəhd et"
+    },
+    "list": {
+      "empty": "Hələ göstəriləcək imkan yoxdur.",
+      "emptyProfileTitle": "Profilinizi doldurun",
+      "emptyProfileText": "Profilsiz uyğunluğu dəqiq hesablamaq olmur. Təhsil səviyyəsi, sahə, ölkə və maraqlarınızı əlavə edin.",
+      "view": "İmkana bax",
+      "rankedBy": "Uyğun gələnlər əvvəldə, bağlı və uyğun olmayanlar sonda göstərilir.",
+      "missingCount": "Çatışmayan şərtlər: {count}",
+      "more": "Hesablama kataloqun ilk {count} imkanı üzrə aparılıb."
+    }
+  },
+  "ai": {
+    "title": "Süni intellekt izahı",
+    "badge": "Süni intellekt tərəfindən yaradılıb",
+    "notOfficial": "Bu mətn bu səhifədəki rəsmi qeyd əsasında süni intellekt tərəfindən yaradılıb və rəsmi məlumat deyil. Səhv ola bilər: qərar verməzdən əvvəl rəsmi mənbəni yoxlayın.",
+    "privacy": "Yalnız təhsil səviyyəniz, sahəniz, bacarıqlarınız, dilləriniz və üstünlükləriniz göndərilir — adınız, e-poçtunuz və universitetiniz heç vaxt.",
+    "unavailable": "Süni intellekt izahları hazırda əlçatan deyil. Yuxarıdakı qaydalara əsaslanan uyğunluq işləməyə davam edir.",
+    "tasks": {
+      "why_suits": "Niyə mənə uyğun ola bilər?",
+      "eligibility_summary": "Uyğunluq şərtlərinin xülasəsi",
+      "application_steps": "Müraciət addımları",
+      "profile_improvements": "Profilimi necə gücləndirim?"
+    },
+    "ask": {
+      "label": "İmkan haqqında sual verin",
+      "placeholder": "Məsələn: müraciət haqqı varmı?",
+      "hint": "Cavab yalnız bu imkanın rəsmi məlumatlarına əsaslanır. Ən çox {max} simvol.",
+      "submit": "Soruş"
+    },
+    "working": "Cavab hazırlanır…",
+    "answerLabel": "Süni intellektin cavabı",
+    "errors": {
+      "ai_unavailable": "Süni intellekt izahları hazırda əlçatan deyil. Bir az sonra yenidən cəhd edin.",
+      "rate_limited": "Həddindən çox sorğu. {seconds, plural, one {# saniyə} other {# saniyə}} sonra yenidən cəhd edin.",
+      "invalid_question": "Sualı 3–500 simvolla, bu imkana aid şəkildə yazın.",
+      "invalid_request": "Sorğu düzgün deyil.",
+      "not_found": "Bu imkan artıq əlçatan deyil.",
+      "ai_failed": "Cavab yaratmaq mümkün olmadı. Yenidən cəhd edin.",
+      "unauthorized": "Bu əməliyyat üçün daxil olun.",
+      "forbidden": "Sorğu rədd edildi."
+    },
+    "warnings": {
+      "unverified_numbers": "Cavabdakı bəzi rəqəmləri rəsmi qeydlə təsdiqləmək mümkün olmadı. Məlumatları rəsmi mənbədən yoxlayın.",
+      "language_mismatch": "Cavab seçdiyiniz dildə olmaya bilər.",
+      "links_removed": "Cavabdakı keçidlər təhlükəsizlik üçün silindi. Rəsmi keçidlər səhifədədir.",
+      "truncated": "Cavab uzun olduğuna görə kəsilib."
+    }
+  },
+  "admin": {
+    "title": "İdarəetmə paneli",
+    "badge": "Yalnız adminlər",
+    "nav": {
+      "label": "İdarəetmə bölmələri",
+      "dashboard": "Panel",
+      "opportunities": "İmkanlar",
+      "organizations": "Təşkilatlar",
+      "site": "Sayta qayıt",
+      "sources": "Mənbələr",
+      "import": "İdxal",
+      "quality": "Məlumat keyfiyyəti"
+    },
+    "status": {
+      "draft": "Qaralama",
+      "in_review": "Baxışda",
+      "published": "Dərc olunub",
+      "rejected": "Rədd edilib",
+      "archived": "Arxivdə",
+      "unpublished": "Dərcdən çıxarılıb"
+    },
+    "verification": {
+      "verified": "Təsdiqlənib",
+      "unverified": "Təsdiqlənməyib",
+      "expired": "Vaxtı bitib",
+      "rejected": "Rədd edilib"
+    },
+    "dashboard": {
+      "subtitle": "Dərc növbəsi, təsdiq vəziyyəti və tərcümələr bir yerdə.",
+      "cards": {
+        "total": "Cəmi imkan",
+        "pending": "Baxış gözləyir",
+        "published": "Dərc olunub",
+        "draft": "Qaralamalar",
+        "rejected": "Rədd edilib",
+        "archived": "Arxivdə",
+        "unverified": "Təsdiqlənməyib",
+        "expired": "Vaxtı bitib",
+        "missingTranslations": "Tərcüməsi çatışmayan",
+        "organizations": "Təşkilatlar"
+      },
+      "actions": {
+        "new": "Yeni imkan",
+        "review": "Baxış növbəsi",
+        "expired": "Vaxtı bitənlər",
+        "organizations": "Təşkilatlar"
+      },
+      "pendingTitle": "Baxış gözləyənlər",
+      "pendingEmpty": "Baxış gözləyən imkan yoxdur."
+    },
+    "list": {
+      "title": "İmkanlar",
+      "new": "Yeni imkan",
+      "search": "Axtarış",
+      "searchPlaceholder": "Başlıq və ya slug",
+      "filters": {
+        "status": "Dərc statusu",
+        "verification": "Təsdiq",
+        "all": "Hamısı",
+        "expired": "Yalnız vaxtı bitənlər",
+        "apply": "Tətbiq et",
+        "reset": "Sıfırla",
+        "imported": "Yalnız idxal olunanlar",
+        "batch": "İdxal partiyası: {batch}"
+      },
+      "columns": {
+        "title": "Başlıq",
+        "organization": "Təşkilat",
+        "status": "Status",
+        "deadline": "Son tarix",
+        "translations": "Tərcümələr",
+        "updated": "Yenilənib"
+      },
+      "count": "{count, plural, one {# nəticə} other {# nəticə}}",
+      "empty": "Hələ imkan yoxdur.",
+      "emptyFiltered": "Bu süzgəclərə uyğun imkan tapılmadı.",
+      "edit": "Redaktə et",
+      "deleted": "İmkan silindi.",
+      "page": "Səhifə {page} / {total}",
+      "prev": "Əvvəlki",
+      "next": "Növbəti",
+      "noDeadline": "Son tarix yoxdur (davamlı)",
+      "deadlineUnknown": "Göstərilməyib",
+      "expiredBadge": "Vaxtı bitib",
+      "demoBadge": "Demo",
+      "importedBadge": "İdxal: {batch}"
+    },
+    "coverage": {
+      "legend": "Tərcümələr: AZ, RU, EN",
+      "ok": "var",
+      "missing": "yoxdur",
+      "draft": "yalnız maşın qaralaması",
+      "outdated": "köhnəlib",
+      "original": "orijinal",
+      "summaryMissing": "Çatışan: {languages}",
+      "complete": "Bütün tərcümələr var"
+    },
+    "form": {
+      "createTitle": "Yeni imkan",
+      "editTitle": "İmkanı redaktə et",
+      "back": "İmkanlara qayıt",
+      "createdNotice": "İmkan qaralama kimi yaradıldı.",
+      "savedNotice": "Dəyişikliklər saxlanıldı.",
+      "savedUnverifiedNotice": "Saxlanıldı. Təsdiqlənmiş faktlar dəyişdiyi üçün təsdiq ləğv edildi — rəsmi mənbəni yenidən yoxlayın.",
+      "save": "Yadda saxla",
+      "create": "Qaralama yarat",
+      "saving": "Saxlanılır…",
+      "sections": {
+        "basics": "Əsas məlumat",
+        "location": "Məkan",
+        "eligibility": "Uyğunluq şərtləri",
+        "funding": "Maliyyələşmə",
+        "dates": "Tarixlər",
+        "links": "Rəsmi keçidlər",
+        "translations": "Tərcümələr"
+      },
+      "fields": {
+        "slug": "Slug (URL hissəsi)",
+        "organization": "Təşkilat",
+        "type": "İmkan növü",
+        "otherLabel": "«Digər» növünün adı",
+        "originalLanguage": "Orijinal mətnin dili",
+        "featured": "Seçilmiş imkan",
+        "locationType": "Format",
+        "country": "Ölkə",
+        "city": "Şəhər (siyahıdan)",
+        "cityText": "Şəhər (başqa)",
+        "educationLevels": "Təhsil səviyyələri",
+        "eligibleFields": "Uyğun sahələr",
+        "eligibleCountries": "Uyğun ölkələr (kodlar, boş = göstərilməyib)",
+        "fundingType": "Maliyyələşmə növü",
+        "fundingAmount": "Məbləğ",
+        "fundingCurrency": "Valyuta",
+        "fundingPeriod": "Dövr",
+        "fundingPercent": "Endirim faizi",
+        "feeAmount": "İştirak haqqı",
+        "feeCurrency": "Haqq valyutası",
+        "startDate": "Müraciətlərin başlanğıcı",
+        "deadlineType": "Son tarix növü",
+        "deadline": "Son tarix",
+        "deadlineTimezone": "Saat qurşağı",
+        "officialSourceUrl": "Rəsmi mənbə (https)",
+        "applicationUrl": "Müraciət səhifəsi (https)"
+      },
+      "hints": {
+        "slug": "Boş buraxsanız, orijinal başlıqdan yaradılır.",
+        "originalLanguage": "Orijinal mətn qorunur və sonradan dəyişdirilmir.",
+        "deadline": "Vaxt təşkilatın saat qurşağındadır.",
+        "required": "Dərc üçün məcburidir.",
+        "unknownDeadline": "«Göstərilməyib» seçimi ilə dərc etmək olmaz."
+      },
+      "deadlineType": {
+        "fixed": "Sabit tarix",
+        "rolling": "Son tarix yoxdur (davamlı qəbul)",
+        "unknown": "Göstərilməyib"
+      },
+      "fundingPeriod": {
+        "total": "Cəmi",
+        "monthly": "Aylıq",
+        "yearly": "İllik"
+      },
+      "choose": "Seçin",
+      "none": "—"
+    },
+    "tr": {
+      "intro": "Hər dil üçün mətni ayrıca yaza bilərsiniz. Qismən tərcümələr icazəlidir; boş qalan bölmə heç vaxt avtomatik doldurulmur.",
+      "originalTag": "Orijinal",
+      "originalNote": "Orijinal dildə mətn silinə bilməz.",
+      "status": "Tərcümə statusu",
+      "statusOptions": {
+        "human": "Redaktor tərəfindən yazılıb/yoxlanılıb",
+        "machine_draft": "Maşın qaralaması (ictimaiyyətə göstərilmir)"
+      },
+      "states": {
+        "original": "Orijinal",
+        "human": "Dərcdə (insan)",
+        "machine_draft": "Maşın qaralaması — gizli",
+        "machine_approved": "Təsdiqlənmiş maşın tərcüməsi",
+        "outdated": "Köhnəlib (orijinal dəyişib)",
+        "missing": "Çatışmır"
+      },
+      "approve": "Təsdiqlə və dərc et",
+      "approveNote": "Maşın qaralamaları siz təsdiq edənə qədər ictimaiyyətə göstərilmir.",
+      "markReviewed": "İnsan tərəfindən yoxlanılıb kimi qeyd et",
+      "backToDraft": "Qaralamaya qaytar",
+      "working": "Gözləyin…",
+      "fields": {
+        "title": "Başlıq",
+        "short": "Qısa təsvir",
+        "description": "Təsvir",
+        "requirements": "Tələblər",
+        "benefits": "Üstünlüklər",
+        "eligibility": "Uyğunluq şərtləri (mətn)"
+      }
+    },
+    "workflow": {
+      "title": "Status və təsdiq",
+      "current": "Dərc statusu",
+      "actions": {
+        "in_review": "Baxışa göndər",
+        "published": "Təsdiqlə və dərc et",
+        "rejected": "Rədd et",
+        "archived": "Arxivə göndər",
+        "draft": "Qaralamaya qaytar",
+        "unpublish": "Dərcdən çıxar (qaralama)"
+      },
+      "done": "Status dəyişdirildi.",
+      "verifyTitle": "Rəsmi mənbənin təsdiqi",
+      "verify": "Rəsmi mənbəni təsdiq et",
+      "unverify": "Təsdiqi ləğv et",
+      "openSource": "Rəsmi mənbəni aç",
+      "verifyHint": "Linki açıb məlumatların rəsmi səhifədə eyni olduğunu yoxladıqdan sonra təsdiq edin.",
+      "verifiedOn": "Təsdiqlənib: {date}",
+      "noSource": "Rəsmi mənbə göstərilməyib.",
+      "requirementsTitle": "Dərc üçün tələblər",
+      "requirementsMet": "Bütün tələblər ödənilib.",
+      "blockers": {
+        "missing_official_source": "Rəsmi mənbə URL-i yoxdur.",
+        "official_source_not_https": "Rəsmi mənbə https ilə başlamalıdır.",
+        "not_verified": "Rəsmi mənbə təsdiqlənməyib.",
+        "missing_organization": "Təşkilat seçilməyib.",
+        "missing_original_translation": "Orijinal dildə mətn yoxdur.",
+        "missing_title": "Başlıq yoxdur.",
+        "missing_short_description": "Orijinal dildə qısa təsvir yoxdur.",
+        "deadline_required": "Sabit son tarix üçün tarix göstərilməyib.",
+        "deadline_not_stated": "Son tarix göstərilməyib: tarix və ya «son tarix yoxdur» seçin.",
+        "missing_country": "Ölkə göstərilməyib.",
+        "already_expired": "Müraciət müddəti artıq bitib."
+      },
+      "deleteTitle": "İmkanı sil",
+      "delete": "Həmişəlik sil",
+      "deleteConfirm": "Bu imkan və bütün tərcümələri həmişəlik silinəcək, istifadəçilərin planlarından da yox olacaq. Davam edək?",
+      "deleteHint": "Dərc olunmuş imkanı əvvəlcə arxivə göndərin. Silmək əvəzinə arxivləmək məsləhətdir.",
+      "working": "Gözləyin…"
+    },
+    "errors": {
+      "unauthorized": "Daxil olmaq lazımdır.",
+      "forbidden": "Bu əməliyyat üçün admin hüququ lazımdır.",
+      "not_found": "Qeyd tapılmadı.",
+      "invalid": "Formada düzəldilməli xətalar var.",
+      "conflict": "Bu slug artıq istifadə olunur.",
+      "in_use": "Bu qeyd başqa yerdə istifadə olunur, silmək olmaz.",
+      "publish_blocked": "Dərc üçün tələblər ödənilməyib.",
+      "failed": "Əməliyyatı tamamlamaq mümkün olmadı. Yenidən cəhd edin.",
+      "invalid_transition": "Bu statusa birbaşa keçid mümkün deyil. Əvvəlcə baxışa göndərin.",
+      "archive_first": "Dərc olunmuş imkanı əvvəlcə arxivə göndərin.",
+      "unpublish_first": "Təsdiqi ləğv etməzdən əvvəl dərcdən çıxarın.",
+      "critical_change_published": "Dərc olunmuş imkanda təsdiqlənmiş faktları ({fields}) dəyişmək olmaz. Əvvəlcə dərcdən çıxarın.",
+      "missing_official_source": "Təsdiq üçün rəsmi mənbə URL-i lazımdır.",
+      "invalid_file": "Fayl oxuna bilmədi və ya tələb olunan sütunlar çatışmır."
+    },
+    "changed": {
+      "officialSourceUrl": "rəsmi mənbə",
+      "applicationUrl": "müraciət səhifəsi",
+      "applicationDeadline": "son tarix",
+      "applicationStartDate": "başlanğıc tarixi",
+      "deadlineType": "son tarix növü",
+      "fundingType": "maliyyələşmə növü",
+      "fundingAmount": "məbləğ",
+      "fundingCurrency": "valyuta",
+      "fundingPercent": "faiz",
+      "eligibleCountries": "uyğun ölkələr",
+      "educationLevels": "təhsil səviyyələri",
+      "organizationId": "təşkilat"
+    },
+    "orgs": {
+      "title": "Təşkilatlar",
+      "subtitle": "Rəsmi adlar öz orijinal dilində saxlanılır və tərcümə edilmir.",
+      "new": "Yeni təşkilat",
+      "edit": "Təşkilatı redaktə et",
+      "fields": {
+        "name": "Rəsmi ad",
+        "slug": "Slug",
+        "kind": "Növ",
+        "country": "Ölkə",
+        "website": "Vebsayt (https)"
+      },
+      "opportunities": "İmkanlar: {count}",
+      "save": "Yadda saxla",
+      "create": "Təşkilat yarat",
+      "saved": "Təşkilat saxlanıldı.",
+      "delete": "Sil",
+      "deleteConfirm": "Bu təşkilat silinsin?",
+      "inUse": "İmkanları olan təşkilatı silmək olmaz.",
+      "empty": "Hələ təşkilat yoxdur.",
+      "cancel": "Ləğv et",
+      "working": "Gözləyin…"
+    },
+    "sources": {
+      "title": "Məlumat mənbələri",
+      "subtitle": "İmkanların rəsmi mənbələri: təşkilatın öz saytı, API-si və ya icazəli xəbər lenti.",
+      "rules": "Məlumat yalnız rəsmi mənbədən götürülür. Mümkün olduqda rəsmi API və icazəli lentlərdən istifadə edin; saytın istifadə qaydalarına və texniki məhdudiyyətlərinə riayət edin. Platforma saytları avtomatik skan etmir — son yoxlama tarixini şəxs özü qeyd edir.",
+      "new": "Yeni mənbə",
+      "edit": "Mənbəni redaktə et",
+      "fields": {
+        "organizationName": "Təşkilatın adı",
+        "websiteUrl": "Rəsmi vebsayt (https)",
+        "sourceType": "Təşkilatın növü",
+        "country": "Ölkə",
+        "accessMethod": "Məlumatın əldə edilməsi",
+        "notes": "Qeydlər (istifadə şərtləri, əlaqə, xüsusiyyətlər)",
+        "isActive": "Aktiv mənbə",
+        "organization": "Əlaqəli təşkilat"
+      },
+      "accessMethods": {
+        "official_api": "Rəsmi API",
+        "authorized_feed": "İcazəli xəbər lenti",
+        "official_website": "Rəsmi sayt (əl ilə oxunur)",
+        "manual": "Əl ilə daxiletmə"
+      },
+      "lastChecked": "Son yoxlama: {date}",
+      "never": "Heç vaxt yoxlanılmayıb",
+      "overdue": "Yoxlama gecikir",
+      "active": "Aktiv",
+      "inactive": "Passiv",
+      "markChecked": "Yoxladım",
+      "openSite": "Rəsmi saytı aç",
+      "save": "Yadda saxla",
+      "create": "Mənbə yarat",
+      "saved": "Mənbə saxlanıldı.",
+      "delete": "Sil",
+      "deleteConfirm": "Bu mənbə silinsin? İdxal olunmuş imkanlar qalır.",
+      "empty": "Hələ mənbə yoxdur.",
+      "cancel": "Ləğv et",
+      "working": "Gözləyin…"
+    },
+    "import": {
+      "title": "İmkanların CSV ilə idxalı",
+      "subtitle": "Faylı əvvəlcə yoxlayın, xətalara baxın, sonra yalnız düzgün sətirləri qaralama kimi idxal edin.",
+      "steps": {
+        "template": "1. Şablonu yükləyin",
+        "upload": "2. Faylı seçin və yoxlayın",
+        "review": "3. Nəticəyə baxın",
+        "import": "4. Qaralama kimi idxal edin"
+      },
+      "template": {
+        "download": "CSV şablonunu yüklə",
+        "help": "Şablonda bütün sütunlar və bir nümunə sətir var; nümunə sətir idxal edilmir. Siyahı dəyərləri | ilə ayrılır. Tarix: 2030-03-31 və ya 31.03.2030 (yalnız tarix = günün sonu, təşkilatın saat qurşağında). Təşkilat mövcud olmalıdır (slug və ya dəqiq ad). Orijinal dil az, ru və ya en ola bilər; digər dillərdəki mətnlər tərcümə sütunlarına yazılır."
+      },
+      "rules": {
+        "title": "Keyfiyyət qaydaları",
+        "official": "Hər imkanın rəsmi mənbə URL-i olmalıdır.",
+        "draft": "İdxal olunanlar həmişə təsdiqlənməmiş qaralama kimi yaradılır; heç vaxt avtomatik dərc edilmir.",
+        "nothing": "Çatışmayan məlumat uydurulmur: boş xana boş qalır.",
+        "translations": "Tərcümələr yoxlanıldı qeyd olunmayıbsa, gizli maşın qaralaması kimi saxlanılır.",
+        "active": "Səhifənin hələ də mövcud olması imkanın aktiv olması demək deyil: son tarix və şəxsin yoxlaması əsasdır."
+      },
+      "upload": {
+        "file": "CSV faylı",
+        "paste": "Və ya məzmunu bura yapışdırın",
+        "check": "Faylı yoxla",
+        "checking": "Yoxlanılır…",
+        "clear": "Təmizlə",
+        "tooLarge": "Fayl çox böyükdür (ən çox 1 MB).",
+        "empty": "Əvvəlcə fayl seçin və ya məzmunu yapışdırın."
+      },
+      "preview": {
+        "title": "Yoxlama nəticəsi",
+        "summary": {
+          "total": "Sətirlər",
+          "importable": "İdxal oluna bilər",
+          "errors": "Xətalı",
+          "duplicates": "Təkrarlar",
+          "possible": "Ehtimal olunan təkrarlar"
+        },
+        "columns": {
+          "line": "Sətir",
+          "title": "Başlıq",
+          "organization": "Təşkilat",
+          "status": "Vəziyyət",
+          "problems": "Qeydlər"
+        },
+        "statuses": {
+          "ok": "Hazırdır",
+          "warning": "Xəbərdarlıqla",
+          "error": "Xəta",
+          "duplicate": "Təkrar",
+          "possible_duplicate": "Ehtimal olunan təkrar"
+        },
+        "noProblems": "Qeyd yoxdur",
+        "errorPrefix": "Xəta",
+        "warningPrefix": "Xəbərdarlıq",
+        "includePossible": "Ehtimal olunan təkrarları da idxal et (özüm yoxlayıram)",
+        "importButton": "{count, plural, one {# sətri} other {# sətri}} qaralama kimi idxal et",
+        "importing": "İdxal edilir…",
+        "nothingToImport": "İdxal ediləcək sətir yoxdur. Xətaları düzəldin və faylı yenidən yoxlayın.",
+        "neverPublish": "İdxal olunanlar yalnız qaralama olur: dərc üçün təsdiq və baxış lazımdır.",
+        "languages": "Dillər: {languages}"
+      },
+      "fileProblems": {
+        "empty": "Fayl boşdur.",
+        "too_large": "Fayl çox böyükdür.",
+        "too_many_rows": "Çox sətir var: ən çox 200 sətir oxunur.",
+        "unclosed_quote": "Bağlanmamış dırnaq işarəsi: fayl düzgün CSV deyil.",
+        "cell_too_long": "Bəzi xanalar çox uzundur.",
+        "binary": "Bu mətn faylı deyil (CSV olmalıdır)."
+      },
+      "columns": {
+        "missing": "Çatışan sütunlar: {columns}",
+        "unknown": "Tanınmayan sütunlar nəzərə alınmır: {columns}",
+        "duplicate": "Təkrarlanan sütunlar: {columns}"
+      },
+      "issues": {
+        "too_many_cells": "Sətirdə başlıqdan çox xana var.",
+        "example_row": "Bu şablonun nümunə sətridir. Silin.",
+        "organization_required": "Təşkilat göstərilməyib.",
+        "organization_not_found": "Təşkilat tapılmadı: «{value}». Əvvəlcə «Təşkilatlar» bölməsində yaradın (slug və ya dəqiq ad).",
+        "original_language_unsupported": "Orijinal dil az, ru və ya en olmalıdır (indi: «{value}»).",
+        "official_source_required": "Rəsmi mənbə URL-i məcburidir.",
+        "url_credentials": "URL-də istifadəçi adı və ya parol ola bilməz.",
+        "url_ip_address": "Rəsmi mənbə IP ünvanı ola bilməz.",
+        "url_local_address": "Yerli/daxili ünvan rəsmi mənbə deyil.",
+        "url_placeholder_domain": "Nümunə ünvanı (example.com və s.) rəsmi mənbə deyil.",
+        "url_too_long": "URL çox uzundur.",
+        "url_url_shortener": "Qısaldılmış link rəsmi səhifə deyil: əsl ünvanı yazın.",
+        "url_social_media": "Sosial şəbəkə linki rəsmi mənbə deyil: təşkilatın öz saytını göstərin.",
+        "url_file_sharing": "Fayl paylaşma/forma linki rəsmi səhifə deyil.",
+        "url_host_mismatch": "Ünvan heç bir qeydə alınmış mənbənin saytı ilə üst-üstə düşmür.",
+        "deadline_in_past": "Son tarix keçib: imkan vaxtı bitmiş kimi görünəcək və dərc edilə bilməz.",
+        "deadline_far_future": "Son tarix 3 ildən uzaqdır — tarixi yoxlayın.",
+        "deadline_unknown": "Son tarix göstərilməyib: dərc üçün tarix və ya «son tarix yoxdur» lazımdır.",
+        "short_description_missing": "Orijinal dildə qısa təsvir yoxdur (dərc üçün lazımdır).",
+        "translation_missing": "{language} dilində tərcümə yoxdur.",
+        "translations_unreviewed": "Tərcümələr gizli maşın qaralaması kimi saxlanılacaq.",
+        "source_unknown": "Mənbə «{value}» qeydə alınmayıb: imkan mənbəyə bağlanmayacaq.",
+        "source_unlinked": "Ünvana uyğun qeydə alınmış mənbə tapılmadı.",
+        "source_inactive": "Mənbə passiv olaraq işarələnib."
+      },
+      "duplicate": {
+        "of": "«{slug}» ilə təkrardır ({reason})",
+        "possibleOf": "«{slug}» ilə oxşardır ({reason})",
+        "inFile": "Faylın {line}-ci sətri ilə",
+        "reasons": {
+          "same_url": "eyni rəsmi səhifə",
+          "same_slug": "eyni slug",
+          "similar_title": "oxşar başlıq"
+        }
+      },
+      "results": {
+        "title": "İdxal nəticəsi",
+        "created": "Yaradıldı (qaralama): {count}",
+        "skipped": "Buraxıldı: {count}",
+        "failed": "Alınmadı: {count}",
+        "batch": "İdxal partiyası: {batch}",
+        "review": "Qaralamalara baxış və təsdiq",
+        "outcome": {
+          "created": "Yaradıldı",
+          "skipped": "Buraxıldı",
+          "failed": "Alınmadı"
+        },
+        "reasons": {
+          "duplicate": "təkrar",
+          "possible_duplicate": "ehtimal olunan təkrar",
+          "error": "xəta"
+        }
+      },
+      "recent": {
+        "title": "Son idxallar və baxış",
+        "empty": "Hələ idxal olmayıb.",
+        "counts": "Cəmi {total} · qaralama {draft} · baxışda {inReview} · dərc olunub {published}",
+        "open": "Aç"
+      }
+    },
+    "quality": {
+      "title": "Məlumat keyfiyyəti",
+      "subtitle": "Vaxtı bitmiş, köhnəlmiş təsdiqli və yoxlanılmamış məlumatlar.",
+      "never": "Səhifənin hələ də mövcud olması imkanın aktiv olması demək deyil. Yalnız son tarix və şəxsin yoxlaması əsasdır.",
+      "expire": {
+        "title": "Vaxtı bitmiş imkanların aşkarlanması",
+        "text": "Son tarixi keçmiş təsdiqli imkanlar «vaxtı bitib» kimi işarələnir. İmkanlar silinmir və dərcdən çıxarılmır — sadəcə aktiv kimi göstərilmir.",
+        "button": "Yoxla və işarələ",
+        "working": "Yoxlanılır…",
+        "result": "{count, plural, one {# imkan «vaxtı bitib» kimi işarələndi.} other {# imkan «vaxtı bitib» kimi işarələndi.}}",
+        "pending": "İşarələnməyi gözləyən: {count}"
+      },
+      "stale": {
+        "title": "90 gündən köhnə təsdiq",
+        "text": "Rəsmi mənbəni yenidən yoxlayın və təsdiqi yeniləyin.",
+        "empty": "Köhnəlmiş təsdiq yoxdur."
+      },
+      "sources": {
+        "title": "Yoxlanması gecikən mənbələr",
+        "empty": "Bütün aktiv mənbələr yaxınlarda yoxlanılıb."
+      },
+      "missing": {
+        "title": "Tərcüməsi çatışmayan dərc olunmuşlar",
+        "empty": "Hər dərc olunmuş imkanın AZ, RU və EN mətni var."
+      },
+      "open": "Aç",
+      "cappedNote": "Hər siyahı ən çox 100 qeyd göstərir."
+    }
+  }
+}

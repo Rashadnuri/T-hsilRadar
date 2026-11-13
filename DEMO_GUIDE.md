@@ -27,6 +27,8 @@ Pick one. Both show the same labelled demo records.
 
 If you want the Contact page to look finished, also set `NEXT_PUBLIC_CONTACT_EMAIL` to a mailbox you control before starting (it is applied at build time on Vercel).
 
+**Simplest way to look around (no accounts, no database):** deploy the repository to Vercel with **no environment variables at all**. Without Supabase the site serves the 22 built-in, clearly labelled demo cards (catalogue, search, filters, three languages, detail pages). Registration, plan, matching and admin need Supabase or the local stand-in below.
+
 **Before you start (2 minutes):** open the site in a clean browser profile, check `/az`, `/ru` and `/en` load, and (A) register `admin@example.com`, log out, then register `student@example.com` (keep that tab for Journey 5). Keep one window at 390 px wide to show mobile.
 
 ## 3. The main user journey in one sentence

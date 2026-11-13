@@ -52,14 +52,24 @@ export const isSupabaseConfigured = (env: Env = process.env) => getSupabasePubli
 /**
  * Whether the labelled demo records are shown.
  *  - SHOW_DEMO_CONTENT=true / false decides explicitly (set it per Vercel environment);
- *  - unset: shown while developing and testing, HIDDEN in a production build, so a deployment that
- *    forgets the variable can never present fictional records as real ones.
+ *  - a value that is neither (e.g. "yes") fails closed in a production build;
+ *  - unset: shown while developing and testing; in a production build shown ONLY when Supabase is not
+ *    configured. Without Supabase the built-in demo records are the only content the site can have (no
+ *    accounts, no admin, nothing real), so hiding them would just show an empty site. A real deployment
+ *    always has Supabase configured, and there an unset value HIDES demo records (e.g. seed rows), so a
+ *    forgotten variable can never present fictional records as real ones.
  */
 export const isDemoContentEnabled = (env: Env = process.env) => {
   const value = env.SHOW_DEMO_CONTENT?.trim().toLowerCase();
   if (value === "true") return true;
   if (value === "false") return false;
-  return env.NODE_ENV !== "production";
+  if (env.NODE_ENV !== "production") return true;
+  if (value) return false;
+  try {
+    return !isSupabaseConfigured(env);
+  } catch {
+    return false; // half-configured Supabase: not a demo-only site, fail closed
+  }
 };
 
 /** Service-role key for trusted server code only. Returns null when unset or a placeholder. */

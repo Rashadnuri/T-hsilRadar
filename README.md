@@ -80,7 +80,7 @@ Useful commands:
 |---|---|
 | `npm run check` | i18n parity + TypeScript + ESLint + all tests |
 | `npm test` | Vitest. The **database suites** need a PostgreSQL superuser in `TEST_DATABASE_URL` and are **skipped** without it |
-| `npm run build` / `npm start` | Production build / serve it (demo data is hidden in a production build unless `SHOW_DEMO_CONTENT=true`) |
+| `npm run build` / `npm start` | Production build / serve it (a build **without Supabase** shows the labelled demo cards; with Supabase configured they are hidden unless `SHOW_DEMO_CONTENT=true`) |
 | `npm run preflight -- <env file>` | Checks a production environment and prints problems **without printing any value** |
 | `npm run db:seed:generate` | Regenerates the demo-only `supabase/seed.sql` |
 
@@ -94,7 +94,7 @@ Useful commands:
 | `NEXT_PUBLIC_SUPABASE_URL` | public | production | Supabase project URL |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | public | production | **anon / publishable** key (safe in the browser *because of RLS*). Never the service-role key |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | public | recommended | A real, monitored mailbox. The Contact page then offers topic buttons that open the visitor's e-mail app with the subject filled in; without it the page says its form is not active. Shown publicly; applied at build time |
-| `SHOW_DEMO_CONTENT` | server | recommended | `false` in production. Unset ⇒ shown in development, **hidden in a production build** |
+| `SHOW_DEMO_CONTENT` | server | recommended | `false` in real production. Unset ⇒ shown in development, and in a production build **only when Supabase is not configured** (a demo-only deployment); hidden once Supabase is configured |
 | `ANTHROPIC_API_KEY` | **secret** | optional | Enables AI explanations. Server-only |
 | `AI_ENABLED`, `AI_MODEL`, `AI_RATE_PER_MINUTE`, `AI_RATE_PER_DAY`, `AI_GLOBAL_PER_DAY`, `AI_MAX_OUTPUT_TOKENS`, `AI_TIMEOUT_MS` | server | optional | AI kill switch, model and limits |
 | `SUPABASE_SERVICE_ROLE_KEY` | **secret** | **do not set** | Bypasses RLS; the application does not use it |

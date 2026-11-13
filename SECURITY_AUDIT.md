@@ -18,7 +18,7 @@ sections 1, 7 and 10 — chiefly that rate limits live in one server's memory.
 | S-03 | Low | **Fixed** | `lib/ai/config.ts` (reads the API key) and `llm.ts` (SDK) were not marked `server-only`. The bundle was clean, but the guard is what keeps it clean. Added, and a test forbids client imports of secret-handling modules |
 | S-04 | Medium | **Open** | Rate limits are in-memory, per server instance, and only cover AI and sign-in. On serverless hosting the effective limit is multiplied by the number of warm instances. See §7 |
 | S-05 | Medium | **Open** | The CSP has no `script-src`/`connect-src` (needs a nonce strategy validated against Next's inline scripts). XSS defence therefore rests on escaping + input rejection, not on the browser |
-| S-06 | Medium (operational) | **Fixed** (deployment-preparation phase) | `SHOW_DEMO_CONTENT` defaulted to *on*. Now an unset value is *hidden* in any production build, and `npm run preflight` rejects `true` in production. Verified on a production build (0 visible demo mentions, demo URLs 404) |
+| S-06 | Medium (operational) | **Fixed** (deployment-preparation phase) | `SHOW_DEMO_CONTENT` defaulted to *on*. Now an unset value is *hidden* in a production build whenever Supabase is configured (shown only on a demo-only deployment without Supabase, which has no real data to confuse it with), and `npm run preflight` rejects `true` in production and a missing Supabase. Verified on a production build (0 visible demo mentions, demo URLs 404) |
 | S-07 | Low | **Open** | Dev-tooling advisories in `npm audit` (Vitest mocker, `minimatch` via ESLint). Production dependencies: **0 vulnerabilities** |
 
 ## 2. Secrets and environment variables

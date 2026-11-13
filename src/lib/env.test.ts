@@ -23,17 +23,27 @@ describe("getSupabasePublicConfig", () => {
   });
 });
 
+const SUPABASE = { NEXT_PUBLIC_SUPABASE_URL: "https://abc.supabase.co", NEXT_PUBLIC_SUPABASE_ANON_KEY: "anon-key-value" };
+
 describe("other settings", () => {
   it("demo content is on unless explicitly disabled", () => {
     expect(isDemoContentEnabled({})).toBe(true);
     expect(isDemoContentEnabled({ SHOW_DEMO_CONTENT: "true" })).toBe(true);
     expect(isDemoContentEnabled({ SHOW_DEMO_CONTENT: "false" })).toBe(false);
-    // unset: visible while developing, hidden in a production build (a forgotten variable must not show demo data)
+    // unset: visible while developing
     expect(isDemoContentEnabled({ NODE_ENV: "development" })).toBe(true);
-    expect(isDemoContentEnabled({ NODE_ENV: "production" })).toBe(false);
-    expect(isDemoContentEnabled({ NODE_ENV: "production", SHOW_DEMO_CONTENT: "true" })).toBe(true); // explicit opt-in (e.g. Vercel previews)
+    expect(isDemoContentEnabled({ NODE_ENV: "development", ...SUPABASE })).toBe(true);
+    // unset in a production build: shown only when there is NO Supabase (a demo-only site has nothing else to show)…
+    expect(isDemoContentEnabled({ NODE_ENV: "production" })).toBe(true);
+    expect(isDemoContentEnabled({ NODE_ENV: "production", NEXT_PUBLIC_SUPABASE_URL: "https://your-project-ref.supabase.co", NEXT_PUBLIC_SUPABASE_ANON_KEY: "your-anon-key" })).toBe(true); // placeholders = not configured
+    // …and HIDDEN as soon as Supabase is configured (a real deployment that forgets the variable never shows demo data)
+    expect(isDemoContentEnabled({ NODE_ENV: "production", ...SUPABASE })).toBe(false);
+    expect(isDemoContentEnabled({ NODE_ENV: "production", NEXT_PUBLIC_SUPABASE_URL: "https://abc.supabase.co" })).toBe(false); // half-configured: fail closed
+    // explicit values always win
+    expect(isDemoContentEnabled({ NODE_ENV: "production", SHOW_DEMO_CONTENT: "true" })).toBe(true);
+    expect(isDemoContentEnabled({ NODE_ENV: "production", ...SUPABASE, SHOW_DEMO_CONTENT: "true" })).toBe(true); // e.g. a staging project seeded with demo rows
     expect(isDemoContentEnabled({ NODE_ENV: "production", SHOW_DEMO_CONTENT: " FALSE " })).toBe(false);
-    expect(isDemoContentEnabled({ NODE_ENV: "production", SHOW_DEMO_CONTENT: "yes" })).toBe(false); // anything unclear fails closed in production
+    expect(isDemoContentEnabled({ NODE_ENV: "production", SHOW_DEMO_CONTENT: "yes" })).toBe(false); // unclear values fail closed in production
   });
   it("the service-role key is null when unset or a placeholder", () => {
     expect(getServiceRoleKey({})).toBeNull();

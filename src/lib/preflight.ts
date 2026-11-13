@@ -80,7 +80,7 @@ export function checkProductionEnv(env: Env): PreflightFinding[] {
   // ── demo content and development switches ───────────────────────────────────────────────
   const demo = env.SHOW_DEMO_CONTENT?.trim().toLowerCase();
   if (demo === "true") add("error", "SHOW_DEMO_CONTENT", "Is true. Fictional demo records would be shown on the production site. Set it to false (or remove it).");
-  else if (demo !== "false") add("info", "SHOW_DEMO_CONTENT", "Not set: demo records are hidden in a production build. Set it explicitly to false to make that visible in the Vercel settings.");
+  else if (demo !== "false") add("info", "SHOW_DEMO_CONTENT", "Not set: with Supabase configured, demo records are hidden in a production build. Set it explicitly to false to make that visible in the Vercel settings.");
   for (const name of DEV_ONLY) if (isSet(env[name]) || env[name] === "0" || env[name] === "1") add("error", name, "Development-only switch. Remove it from the production environment.");
   if (isSet(env.TEST_DATABASE_URL)) add("warning", "TEST_DATABASE_URL", "A superuser database URL for tests. It must not exist in production.");
 

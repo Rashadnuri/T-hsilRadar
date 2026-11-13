@@ -139,7 +139,7 @@ Roles are granted by the operator in SQL; the application has no way to do it.
   | `NEXT_PUBLIC_SUPABASE_URL` | production project URL | **staging** project URL | |
   | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | production anon key | staging anon key | the **anon / publishable** key only |
   | `NEXT_PUBLIC_CONTACT_EMAIL` | your real mailbox | same as Production (or a test mailbox) | shown publicly; applied at build time — redeploy after changing |
-  | `SHOW_DEMO_CONTENT` | `false` | `true` (to demo the interface) or `false` | an unset value is *hidden* in any production build |
+  | `SHOW_DEMO_CONTENT` | `false` | `true` (to demo the interface) or `false` | with Supabase configured an unset value is *hidden*; a deployment **without** Supabase (demo-only) shows the labelled demo cards when unset |
   | `ANTHROPIC_API_KEY` | key, marked **Sensitive** | optional separate key, or unset | optional feature |
   | `AI_ENABLED`, `AI_MODEL`, `AI_RATE_*`, … | optional | optional | see `.env.example` |
   | `SUPABASE_SERVICE_ROLE_KEY` | **do not set** | **do not set** | unused by the app; bypasses RLS |
@@ -232,7 +232,8 @@ Replace `DOMAIN`. Tick each only after you saw the result yourself.
 | Build fails with "Supabase is half-configured" | only one of the two `NEXT_PUBLIC_SUPABASE_*` is set — set both or neither |
 | Confirmation link goes to the wrong host or "invalid link" | *Site URL* / *Redirect URLs* (§4) do not include the exact origin and `/<lang>/auth/callback`; or `NEXT_PUBLIC_SITE_URL` was set on Preview |
 | Production shows an empty catalogue | expected until real records are published (and demo content is hidden); check §3 verification query 3 |
-| Demo records visible in production | `SHOW_DEMO_CONTENT=true` somewhere; fix and **redeploy** (build-time value) |
+| Demo records visible in production | `SHOW_DEMO_CONTENT=true` somewhere, **or** Supabase is not configured (then demo cards are the only content and are shown on purpose); fix and **redeploy** (build-time value) |
+| Catalogue is empty on a Vercel deploy | Supabase is configured but holds no published records, or `SHOW_DEMO_CONTENT=false` is set; for a look-around deploy remove both Supabase variables and the flag |
 | `robots.txt` says `Disallow: /` in production | the deployment was built as a Vercel *preview*, or `NEXT_PUBLIC_SITE_URL` points at localhost; run preflight |
 | `/admin` is 404 for you | your user has no row in `public.user_roles` (§5) — that is the intended behaviour for non-admins |
 | Sign-up e-mails do not arrive | custom SMTP not configured or the provider is rate-limiting (§4) |

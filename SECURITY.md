@@ -243,7 +243,7 @@ catalogue-driven authorization checks in `supabase/tests/authorization-audit.tes
 ## 22. Deployment preparation
 `npm run preflight` (`src/lib/preflight.ts`) checks a production environment without printing values: https origin as site URL, hosted Supabase
 (both values, https, anon key not a service key), no secret-looking `NEXT_PUBLIC_*` names, no demo content, no development switches. The unused
-service-role key must not be set in Vercel. `SHOW_DEMO_CONTENT` is hidden by default in production builds. Previews are never indexed
+service-role key must not be set in Vercel. `SHOW_DEMO_CONTENT` is hidden by default in production builds that have Supabase configured; a demo-only build (no Supabase) shows the labelled built-in cards. Previews are never indexed
 (`robots.txt` + `X-Robots-Tag`) and must use a separate staging Supabase project. CI (`.github/workflows/ci.yml`) runs with least-privilege permissions
 and no secrets. See DEPLOYMENT.md.
 

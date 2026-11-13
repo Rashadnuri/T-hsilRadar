@@ -88,11 +88,12 @@ export function FilterPanel({ values, activeCount, countries, cityGroups }: Filt
           {select("deadline", t("filters.deadline"), values.deadline, options(DEADLINE_FILTERS, (v) => t(`deadlineFilter.${v as (typeof DEADLINE_FILTERS)[number]}`)))}
           {select("verification", t("filters.verification"), values.verification, options(VERIFICATION_FILTERS, (v) => t(`verification.${v as (typeof VERIFICATION_FILTERS)[number]}`)))}
 
-          <div className="flex flex-col gap-2 pt-1 sm:flex-row lg:flex-col xl:flex-row">
-            <Button type="submit" className="flex-1">
+          {/* `flex-1` only where the buttons sit side by side: in a column it would collapse their height to the text (20 px). */}
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row lg:flex-col xl:flex-row">
+            <Button type="submit" className="min-h-12 text-base sm:flex-1 lg:min-h-11 lg:flex-none lg:text-sm xl:flex-1">
               {t("filters.apply")}
             </Button>
-            <Button asChild type="button" variant="outline" className="flex-1">
+            <Button asChild type="button" variant="outline" className="min-h-12 text-base sm:flex-1 lg:min-h-11 lg:flex-none lg:text-sm xl:flex-1">
               <Link href="/opportunities">{t("filters.reset")}</Link>
             </Button>
           </div>

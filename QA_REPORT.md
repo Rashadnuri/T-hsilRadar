@@ -61,10 +61,10 @@ no horizontal overflow, and no console or page errors.
 | Locale negotiation | `Accept-Language`: az→/az, ru→/ru, en→/en, unsupported (de)→/az (default) | ✅ |
 | Language persistence | `NEXT_LOCALE` cookie wins over `Accept-Language`; switcher keeps the page *and* the query string (browser suites) | ✅ |
 | Translation fallback | missing language falls back to the original with a visible "shown in …" note; machine and outdated translations carry a notice; `machine_draft` never public | ✅ unit (15) + browser + RLS |
-| Dates / numbers | same instant shown in the record's own time zone in all locales (`17:18 GMT+4` = `05:18 PM GMT+4`); `800 ₼ aylıq` / `800 AZN в месяц` / `AZN 800 per month` | ✅ |
+| Dates / numbers | same instant shown in the record's own time zone in all locales (`17:18` = `05:18 PM`; the "GMT+4" label was removed later at the owner's request); `800 ₼ aylıq` / `800 AZN в месяц` / `AZN 800 per month` | ✅ |
 | Facts not changed by translation | translation table has **no** fact columns (deadline, URLs, amounts, eligibility, location); locale resolution returns text fields only | ✅ enforced by schema, asserted by `data-audit.test.ts` |
 
-Observation (not a defect): Azerbaijani date-times render as `17 dekabr 2026/17:18 GMT+4`. The "/" separator comes from
+Observation (not a defect): Azerbaijani date-times render as `17 dekabr 2026/17:18`. The "/" separator comes from
 the browser's CLDR data for `az`, not from our code.
 
 ## 4. Data audit

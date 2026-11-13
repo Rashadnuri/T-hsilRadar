@@ -10,13 +10,12 @@ export function formatDate(value: Date | string, locale: Locale, timeZone = DEFA
 }
 
 /**
- * Deadline/start instant in the organization's own time zone, with the zone shown ("GMT+4").
- * Uses explicit components: Intl rejects `dateStyle`/`timeStyle` combined with `timeZoneName`,
- * and a rejected format silently degrades to Date#toString() in UI libraries.
+ * Deadline/start instant, computed in the organization's own time zone (so the clock time is the one the
+ * organization means) but shown WITHOUT a zone label such as "GMT+4": the site's readers asked for plain dates.
  */
 export function formatDateTimeInZone(value: Date | string, locale: Locale, timeZone: string): string {
   return new Intl.DateTimeFormat(locale, {
-    day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone, timeZoneName: "short",
+    day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone,
   }).format(new Date(value));
 }
 

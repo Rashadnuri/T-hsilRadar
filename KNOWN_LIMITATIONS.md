@@ -42,7 +42,7 @@ Severity: **High** blocks a public launch · **Medium** should be done before re
 | L-21 | Low | Tested in Chromium only. No Safari, Firefox, real iOS/Android devices; "mobile" means viewport emulation |
 | L-22 | Low | No performance, load or Core Web Vitals measurement. Opportunity detail pages are static with 10-minute revalidation; the catalogue list is rendered per request |
 | L-23 | Low | When a server error happens while a page is streaming, the error screen is shown but the HTTP status stays **200** (Next.js has already sent headers). Crawlers and uptime monitors may not notice; error pages are not indexed content but check monitoring by body, not only by status |
-| L-24 | Low | Azerbaijani date-times use the browser's CLDR pattern (`17 dekabr 2026/17:18 GMT+4`). Correct per the platform data, but visually unusual |
+| L-24 | Low | Azerbaijani date-times use the browser's CLDR pattern (`17 dekabr 2026/17:18`). Correct per the platform data, but visually unusual. Time-zone labels ("GMT+4") are deliberately not shown: times are the organization's own clock time (Asia/Baku by default), so a deadline of an organization in another time zone carries no zone hint |
 | L-25 | Low | **One unexplained test result:** a single catalogue check (city-chip text) failed once under `next dev` and never in the production build (77/77). Not reproduced; cause unknown |
 | L-26 | Low | Public pages rendering a *database-sourced hostile record* end to end were not tested (the sandbox's fake mode serves public pages from demo data). The same escaping was verified on admin pages and no raw-HTML sink exists in the code |
 
